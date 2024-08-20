@@ -13,14 +13,20 @@ webr:
     out-width: "70%"
 ---
 
-## Attribution
+::: {.callout-note}
+## Attribution Note
 
-This project is a blatant clone of the R-Primers created by (Andrew Heiss)[https://www.andrewheiss.com/].
-The original version is hosted at <https://r-primers.andrewheiss.com/about.html>.
-I'm only hosting my own copy to ensure that the content of the tutorials doesn't
-change in the middle of a course in which I'm using this resource.
+This project is a blatant clone of the R-Primers project created by
+[Andrew Heiss](https://www.andrewheiss.com/). The original version of this website
+is available [here](https://r-primers.andrewheiss.com/index.html).
 
-The remainder of this page is Heiss' original.
+If you've somehow stumbled onto this page in the wild, you should probably use
+Heiss' original version of this project. I'm only hosting my own copy of these
+materials to ensure that the content of the tutorials doesn't change in the middle
+of a course in which I'm relying on this resource.
+
+The remainder of this page comprises Heiss' original content.
+:::
 
 ## A brief (and probably inaccurate) history of the RStudio/Posit Primers
 

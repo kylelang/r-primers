@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+  execute-dir: project
   preview:
     port: 5555
 
@@ -12,7 +13,7 @@ website:
   bread-crumbs: false
   repo-url: "https://github.com/kylelang/r-primers"
   repo-branch: tcsm
-  repo-actions: [edit, source, issue]
+  repo-actions: [source, issue]
 
   navbar:
     pinned: true
@@ -21,7 +22,7 @@ website:
     right:
       - icon: github
         aria-label: github
-        href: https://github.com/kylelang/r-primers
+        href: https://github.com/kylelang/r-primers/tree/tcsm
   
   sidebar: 
     style: "docked"

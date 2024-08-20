@@ -16,4 +16,4 @@ The primers are derived from the book [*R for Data Science*](https://r4ds.had.co
 from O'Reilly Media, Inc. Copyright © 2017 Garrett Grolemund, Hadley Wickham.
 Used with permission.
 
-[See here for the full license.](https://github.com/andrewheiss/r-primers/blob/main/LICENSE.md)
+[See here for the full license.](https://github.com/kylelang/r-primers/blob/tcsm/LICENSE.md)
