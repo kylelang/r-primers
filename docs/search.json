@@ -798,7 +798,7 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "The ggplot2 package"
     ]
   },
@@ -811,7 +811,7 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "The ggplot2 package"
     ]
   },
@@ -824,7 +824,7 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "Aesthetic mappings"
     ]
   },
@@ -837,7 +837,7 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "Aesthetic mappings"
     ]
   },
@@ -891,29 +891,29 @@
     "text": "Footnotes\n\n\nI also played with {webexercises}, which is a little more polished, but doesn’t let you give feedback messages for in/correct answers. I’m tempted to fork {checkdown} or submit a bunch of PRs to make it nicer. Someday.↩︎"
   },
   {
-    "objectID": "basics/01-visualization-basics/01-code-template.html",
-    "href": "basics/01-visualization-basics/01-code-template.html",
-    "title": "A code template",
+    "objectID": "basics/01-visualization-basics/01-general-ideas.html",
+    "href": "basics/01-visualization-basics/01-general-ideas.html",
+    "title": "General ideas",
     "section": "",
     "text": "“The simple graph has brought more information to the data analyst’s mind than any other device.”\n— John Tukey",
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
-      "A code template"
+      "Data visualization",
+      "General ideas"
     ]
   },
   {
-    "objectID": "basics/01-visualization-basics/01-code-template.html#section-8",
-    "href": "basics/01-visualization-basics/01-code-template.html#section-8",
-    "title": "A code template",
+    "objectID": "basics/01-visualization-basics/01-general-ideas.html#section-8",
+    "href": "basics/01-visualization-basics/01-general-ideas.html#section-8",
+    "title": "General ideas",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
-      "A code template"
+      "Data visualization",
+      "General ideas"
     ]
   },
   {
@@ -925,7 +925,7 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "Geometric objects"
     ]
   },
@@ -938,32 +938,32 @@
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics",
+      "Data visualization",
       "Geometric objects"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/index.html",
     "href": "basics/01-visualization-basics/index.html",
-    "title": "Data visualization basics",
+    "title": "Data visualization",
     "section": "",
     "text": "Visualization is one of the most important tools for data science.\nIt is also a great way to start learning R; when you visualize data, you get an immediate payoff that will keep you motivated as you learn. After all, learning a new language can be hard!\nThis tutorial will teach you how to visualize data with R’s most popular visualization package, ggplot2.",
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics"
+      "Data visualization"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/index.html#section-1",
     "href": "basics/01-visualization-basics/index.html#section-1",
-    "title": "Data visualization basics",
+    "title": "Data visualization",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "Basics",
-      "Data visualization basics"
+      "Data visualization"
     ]
   },
   {

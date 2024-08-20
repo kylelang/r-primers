@@ -1,5 +1,5 @@
 ---
-title: "A code template"
+title: "General ideas"
 format:
   html: 
     toc: false

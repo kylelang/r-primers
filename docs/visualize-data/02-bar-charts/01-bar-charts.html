@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"","options":{"output":"true","dpi":72,"autorun":"false","editor-quick-suggestions":"false","editor-word-wrap":"true","read-only":"false","label":"unnamed-chunk-1","fig-height":"3.7","fig-cap":"","editor-max-height":"","results":"markup","warning":"true","context":"interactive","message":"true","editor-font-scale":"0.85","comment":"","out-height":"","fig-width":"6","classes":"","out-width":"70%"}},{"id":2,"code":"ggplot(data = pressure) +\n  geom_bar(mapping = aes(x = temperature, y = pressure))\n","options":{"output":"true","dpi":72,"autorun":"false","editor-quick-suggestions":"false","editor-word-wrap":"true","read-only":"false","label":"unnamed-chunk-2","fig-height":"3.7","fig-cap":"","editor-max-height":"","results":"markup","warning":"true","context":"interactive","message":"true","editor-font-scale":"0.85","comment":"","out-height":"","fig-width":"6","classes":"","out-width":"70%"}},{"id":3,"code":"","options":{"output":"true","dpi":72,"autorun":"false","editor-quick-suggestions":"false","editor-word-wrap":"true","read-only":"false","label":"unnamed-chunk-3","fig-height":"3.7","fig-cap":"","editor-max-height":"","results":"markup","warning":"true","context":"interactive","message":"true","editor-font-scale":"0.85","comment":"","out-height":"","fig-width":"6","classes":"","out-width":"70%"}}];
+globalThis.qwebrCellDetails = [{"options":{"label":"unnamed-chunk-1","output":"true","comment":"","editor-max-height":"","autorun":"false","context":"interactive","classes":"","editor-word-wrap":"true","editor-quick-suggestions":"false","dpi":72,"warning":"true","fig-height":"3.7","results":"markup","fig-width":"6","message":"true","read-only":"false","out-width":"70%","editor-font-scale":"0.85","fig-cap":"","out-height":""},"code":"","id":1},{"options":{"label":"unnamed-chunk-2","output":"true","comment":"","editor-max-height":"","autorun":"false","context":"interactive","classes":"","editor-word-wrap":"true","editor-quick-suggestions":"false","dpi":72,"warning":"true","fig-height":"3.7","results":"markup","fig-width":"6","message":"true","read-only":"false","out-width":"70%","editor-font-scale":"0.85","fig-cap":"","out-height":""},"code":"ggplot(data = pressure) +\n  geom_bar(mapping = aes(x = temperature, y = pressure))\n","id":2},{"options":{"label":"unnamed-chunk-3","output":"true","comment":"","editor-max-height":"","autorun":"false","context":"interactive","classes":"","editor-word-wrap":"true","editor-quick-suggestions":"false","dpi":72,"warning":"true","fig-height":"3.7","results":"markup","fig-width":"6","message":"true","read-only":"false","out-width":"70%","editor-font-scale":"0.85","fig-cap":"","out-height":""},"code":"","id":3}];
 
 </script>
 <script type="module">
@@ -1684,7 +1684,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../basics/01-visualization-basics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data visualization basics</span></a>
+ <span class="menu-text">Data visualization</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1692,8 +1692,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../basics/01-visualization-basics/01-code-template.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A code template</span></a>
+  <a href="../../basics/01-visualization-basics/01-general-ideas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">General ideas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -2508,7 +2508,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <section id="how-to-make-a-bar-chart" class="level3 no-hide">
 <h3 class="no-hide anchored" data-anchor-id="how-to-make-a-bar-chart">How to make a bar chart</h3>
-<p>To make a bar chart with {ggplot2}, add <code>geom_bar()</code> to the <a href="../../basics/01-visualization-basics/01-code-template.html">ggplot2 template</a>. For example, the code below plots a bar chart of the <code>cut</code> variable in the <code>diamonds</code> dataset, which comes with {ggplot2}.</p>
+<p>To make a bar chart with {ggplot2}, add <code>geom_bar()</code> to the <a href="../../basics/01-visualization-basics/01-general-ideas.html">ggplot2 template</a>. For example, the code below plots a bar chart of the <code>cut</code> variable in the <code>diamonds</code> dataset, which comes with {ggplot2}.</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> diamonds) <span class="sc">+</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> cut))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
