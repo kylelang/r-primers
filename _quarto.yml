@@ -63,5 +63,5 @@ format:
     toc-depth: 3
     knitr:
       opts_chunk:
-        dev: "ragg_png"
+        #dev: "ragg_png"
         dpi: 300
