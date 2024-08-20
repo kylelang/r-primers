@@ -114,6 +114,8 @@ To see the plot, click "Run Code."
 ```{webr-r}
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
+
+
 ```
 
 Can you spot the relationship?
