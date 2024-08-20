@@ -13,7 +13,8 @@ engine: knitr
 filters:
   - webr
 webr:
-  packages: ['ggplot2', 'ragg']
+  packages: 
+    - ggplot2
   cell-options:
     editor-font-scale: 0.85
     fig-width: 6
