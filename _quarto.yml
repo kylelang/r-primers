@@ -10,7 +10,7 @@ website:
   title: "R Primers"
   bread-crumbs: false
   
-  repo-url: "https://github.com/andrewheiss/r-primers"
+  repo-url: "https://github.com/kylelang/r-primers"
   repo-actions: [edit, issue]
 
   navbar:
@@ -20,7 +20,7 @@ website:
     right:
       - icon: github
         aria-label: github
-        href: https://github.com/andrewheiss/r-primers
+        href: https://github.com/kylelang/r-primers
   
   sidebar: 
     style: "docked"
