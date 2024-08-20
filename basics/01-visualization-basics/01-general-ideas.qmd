@@ -15,6 +15,7 @@ filters:
 webr:
   packages:
     - ggplot2
+    - ragg
   cell-options:
     editor-font-scale: 0.85
     fig-width: 6
