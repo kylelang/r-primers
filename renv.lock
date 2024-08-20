@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.0",
+    "Version": "4.4.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -1352,7 +1352,7 @@
     },
     "s2": {
       "Package": "s2",
-      "Version": "1.1.6",
+      "Version": "1.1.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1360,7 +1360,7 @@
         "Rcpp",
         "wk"
       ],
-      "Hash": "32f7b1a15bb01ae809022960abad5363"
+      "Hash": "3c8013cdd7f1d20de5762e3f97e5e274"
     },
     "sass": {
       "Package": "sass",
@@ -1413,7 +1413,7 @@
       "Package": "sf",
       "Version": "1.0-17",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "rspatial",
       "Requirements": [
         "DBI",
         "R",
@@ -1430,7 +1430,7 @@
         "units",
         "utils"
       ],
-      "Hash": "8b62cc43018a2ce8e7abefb7835633d7"
+      "Hash": "453a7d0263eae87a7831242a74fe9b60"
     },
     "sp": {
       "Package": "sp",

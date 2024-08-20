@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
   preview:
     port: 5555
 
@@ -9,9 +10,9 @@ execute:
 website:
   title: "R Primers"
   bread-crumbs: false
-  
   repo-url: "https://github.com/kylelang/r-primers"
-  repo-actions: [edit, issue]
+  repo-branch: tcsm
+  repo-actions: [edit, source, issue]
 
   navbar:
     pinned: true
