@@ -20,7 +20,7 @@ begin_buttons <- function(next_topic = "#") {
   glue::glue(
     '
     <section id="buttons">
-      <a id="beginButton" class="btn btn-danger" href="{next_topic}" role="button">
+      <a id="continueButton" class="btn btn-danger" href="{next_topic}" role="button">
       Begin Exercises
       </a>
       <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
@@ -38,7 +38,7 @@ first_buttons <- function(next_topic = "#") {
   glue::glue(
     '
     <section id="buttons">
-      <a id="firstContinueButton" class="btn btn-primary float-start me-2" href="{next_topic}" role="button">
+      <a id="continueButton" class="btn btn-primary float-start me-2" href="{next_topic}" role="button">
       Continue
       </a>
       <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
