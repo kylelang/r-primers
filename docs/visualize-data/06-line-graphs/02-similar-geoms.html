@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"asia <- \n  gapminder |> \n  filter(country %in% c(\"China\", \"Korea, Dem. Rep.\", \"Korea, Rep.\", \"Japan\")) |> \n  mutate(country = fct_recode(country, \"North Korea\" = \"Korea, Dem. Rep.\", \"South Korea\" = \"Korea, Rep.\"))\n\ntx <- map_data(\"state\", region = \"texas\")","id":1,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"setup","out-height":"","autorun":"true","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-1"}},{"code":"ggplot(asia) +\n  geom_line(mapping = aes(x = year, y = lifeExp, color = country, linetype = country))\n","id":2,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-2"}},{"code":"ggplot(economics) +\n  geom_line(mapping = aes(x = date, y = unemploy))\n","id":3,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-3"}},{"code":"ggplot(economics) +\n  geom_area(mapping = aes(x = date, y = unemploy))\n","id":4,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-4"}},{"code":"ggplot(asia) +\n  geom_area(mapping = aes(x = year, y = lifeExp, fill = country))\n","id":5,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-5"}},{"code":"ggplot(asia) +\n  geom_area(mapping = aes(x = year, y = lifeExp, fill = country), alpha = 0.3)\n","id":6,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-6"}},{"code":"ggplot(tx) +\n  geom_path(mapping = aes(x = long, y = lat))\n","id":7,"options":{"dpi":72,"message":"true","out-width":"70%","warning":"true","fig-width":"6","read-only":"false","results":"markup","comment":"","editor-font-scale":"0.85","editor-max-height":"","classes":"","fig-cap":"","fig-height":"3.7","context":"interactive","out-height":"","autorun":"false","editor-word-wrap":"true","editor-quick-suggestions":"false","output":"true","label":"unnamed-chunk-7"}}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-1","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"true","context":"setup","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"asia <- \n  gapminder |> \n  filter(country %in% c(\"China\", \"Korea, Dem. Rep.\", \"Korea, Rep.\", \"Japan\")) |> \n  mutate(country = fct_recode(country, \"North Korea\" = \"Korea, Dem. Rep.\", \"South Korea\" = \"Korea, Rep.\"))\n\ntx <- map_data(\"state\", region = \"texas\")"},{"id":2,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-2","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(asia) +\n  geom_line(mapping = aes(x = year, y = lifeExp, color = country, linetype = country))\n"},{"id":3,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-3","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(economics) +\n  geom_line(mapping = aes(x = date, y = unemploy))\n"},{"id":4,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-4","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(economics) +\n  geom_area(mapping = aes(x = date, y = unemploy))\n"},{"id":5,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-5","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(asia) +\n  geom_area(mapping = aes(x = year, y = lifeExp, fill = country))\n"},{"id":6,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-6","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(asia) +\n  geom_area(mapping = aes(x = year, y = lifeExp, fill = country), alpha = 0.3)\n"},{"id":7,"options":{"warning":"true","results":"markup","out-width":"70%","comment":"","editor-word-wrap":"true","label":"unnamed-chunk-7","fig-height":"3.7","classes":"","fig-width":"6","fig-cap":"","autorun":"false","context":"interactive","message":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","output":"true","dpi":72},"code":"ggplot(tx) +\n  geom_path(mapping = aes(x = long, y = lat))\n"}];
 
 </script>
 <script type="module">
@@ -1684,7 +1684,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../basics/01-visualization-basics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data visualization</span></a>
+ <span class="menu-text">Data Visualization</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1693,25 +1693,25 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../basics/01-visualization-basics/01-general-ideas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">General ideas</span></a>
+ <span class="menu-text">General Ideas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../basics/01-visualization-basics/02-aesthetic-mappings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Aesthetic mappings</span></a>
+ <span class="menu-text">Aesthetic Mappings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../basics/01-visualization-basics/03-geometric-objects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Geometric objects</span></a>
+ <span class="menu-text">Geometric Objects</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../basics/01-visualization-basics/04-ggplot2-package.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The ggplot2 package</span></a>
+ <span class="menu-text">The ggplot2 Package</span></a>
   </div>
 </li>
       </ul>
@@ -1719,7 +1719,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../basics/02-programming-basics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Programming basics</span></a>
+ <span class="menu-text">Programming Basics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1792,7 +1792,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../transform-data/01-tibbles/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Working with tibbles</span></a>
+ <span class="menu-text">Tibbles</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1800,20 +1800,20 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../transform-data/01-tibbles/01-babynames.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">babynames</span></a>
+  <a href="../../transform-data/01-tibbles/01-example-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Example Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../transform-data/01-tibbles/02-tibbles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">tibbles</span></a>
+ <span class="menu-text">Tibbles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../transform-data/01-tibbles/03-tidyverse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">tidyverse</span></a>
+ <span class="menu-text">Tidyverse</span></a>
   </div>
 </li>
       </ul>
@@ -1821,7 +1821,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../transform-data/02-isolating/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Isolating data with {dplyr}</span></a>
+ <span class="menu-text">Isolating Data</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1829,8 +1829,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../transform-data/02-isolating/01-your-name.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Your name</span></a>
+  <a href="../../transform-data/02-isolating/01-motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Motivation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1854,7 +1854,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../transform-data/02-isolating/05-pipe.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">`|&gt;`</span></a>
+ <span class="menu-text">Pipes</span></a>
   </div>
 </li>
       </ul>
@@ -1862,7 +1862,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../transform-data/03-deriving/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deriving information with {dplyr}</span></a>
+ <span class="menu-text">Deriving Information</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1870,8 +1870,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../transform-data/03-deriving/01-most-popular-names.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The most popular names</span></a>
+  <a href="../../transform-data/03-deriving/01-motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Motivation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1914,7 +1914,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../visualize-data/01-eda/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exploratory data analysis</span></a>
+ <span class="menu-text">Exploratory Data Analysis</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1923,7 +1923,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/01-eda/01-eda.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exploratory data analysis</span></a>
+ <span class="menu-text">EDA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1943,7 +1943,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../visualize-data/02-bar-charts/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bar charts</span></a>
+ <span class="menu-text">Bar Charts</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1952,7 +1952,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/02-bar-charts/01-bar-charts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bar charts</span></a>
+ <span class="menu-text">Bar Charts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1964,7 +1964,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/02-bar-charts/03-position-adjustments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Position adjustments</span></a>
+ <span class="menu-text">Position Adjustments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1999,7 +1999,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/05-scatterplots/03-coordinate-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Coordinate systems</span></a>
+ <span class="menu-text">Coordinate Systems</span></a>
   </div>
 </li>
       </ul>
@@ -2018,7 +2018,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../tidy-data/01-reshape-data/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reshape data</span></a>
+ <span class="menu-text">Reshaping Data</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -2027,19 +2027,19 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tidy-data/01-reshape-data/01-tidy-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tidy data</span></a>
+ <span class="menu-text">Tidy Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tidy-data/01-reshape-data/02-wide-to-long.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Wide to long</span></a>
+ <span class="menu-text">Wide to Long</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tidy-data/01-reshape-data/03-long-to-wide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Long to wide</span></a>
+ <span class="menu-text">Long to Wide</span></a>
   </div>
 </li>
       </ul>

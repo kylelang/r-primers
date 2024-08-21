@@ -93,7 +93,7 @@
   {
     "objectID": "visualize-data/05-scatterplots/03-coordinate-systems.html",
     "href": "visualize-data/05-scatterplots/03-coordinate-systems.html",
-    "title": "Coordinate systems",
+    "title": "Coordinate Systems",
     "section": "",
     "text": "One way to customize a scatterplot is to plot it in a new coordinate system. {ggplot2} provides several helper functions that change the coordinate system of a plot. You’ve already seen one of these in action in the boxplots tutorial: coord_flip() flips the \\(x\\) and \\(y\\) axes of a plot.\n\nggplot(data = mpg, mapping = aes(x = class, y = hwy)) +\n  geom_boxplot(outlier.alpha = 0) +\n  geom_jitter(width = 0) +\n  coord_flip()",
     "crumbs": [
@@ -101,13 +101,13 @@
       "In-Class Exercises",
       "Visualizing Data",
       "Scatterplots",
-      "Coordinate systems"
+      "Coordinate Systems"
     ]
   },
   {
     "objectID": "visualize-data/05-scatterplots/03-coordinate-systems.html#section-1",
     "href": "visualize-data/05-scatterplots/03-coordinate-systems.html#section-1",
-    "title": "Coordinate systems",
+    "title": "Coordinate Systems",
     "section": "",
     "text": "Continue\n\n\nStart over",
     "crumbs": [
@@ -115,7 +115,7 @@
       "In-Class Exercises",
       "Visualizing Data",
       "Scatterplots",
-      "Coordinate systems"
+      "Coordinate Systems"
     ]
   },
   {
@@ -191,83 +191,83 @@
   {
     "objectID": "visualize-data/02-bar-charts/index.html",
     "href": "visualize-data/02-bar-charts/index.html",
-    "title": "Bar charts",
+    "title": "Bar Charts",
     "section": "",
     "text": "This tutorial will show you how to make and enhance bar charts with the {ggplot2} package. You will learn how to:\nThe tutorial is adapted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts"
+      "Bar Charts"
     ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/index.html#section",
     "href": "visualize-data/02-bar-charts/index.html#section",
-    "title": "Bar charts",
+    "title": "Bar Charts",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts"
+      "Bar Charts"
     ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/03-position-adjustments.html",
     "href": "visualize-data/02-bar-charts/03-position-adjustments.html",
-    "title": "Position adjustments",
+    "title": "Position Adjustments",
     "section": "",
     "text": "If you map fill to a new variable, geom_bar() will display a stacked bar chart:\n\nggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = cut, fill = clarity))\n\n\n\n\n\n\n\n\nThis plot displays 40 different combinations of cut and clarity, each displayed by its own rectangle. geom_bar() lays out the rectangles by stacking rectangles that have the same cut value on top of one another. You can change this behavior with a position adjustment.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
-      "Position adjustments"
+      "Bar Charts",
+      "Position Adjustments"
     ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/03-position-adjustments.html#section",
     "href": "visualize-data/02-bar-charts/03-position-adjustments.html#section",
-    "title": "Position adjustments",
+    "title": "Position Adjustments",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
-      "Position adjustments"
+      "Bar Charts",
+      "Position Adjustments"
     ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/01-bar-charts.html",
     "href": "visualize-data/02-bar-charts/01-bar-charts.html",
-    "title": "Bar charts",
+    "title": "Bar Charts",
     "section": "",
     "text": "To make a bar chart with {ggplot2}, add geom_bar() to the ggplot2 template. For example, the code below plots a bar chart of the cut variable in the diamonds dataset, which comes with {ggplot2}.\n\nggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = cut))",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
-      "Bar charts"
+      "Bar Charts",
+      "Bar Charts"
     ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/01-bar-charts.html#section",
     "href": "visualize-data/02-bar-charts/01-bar-charts.html#section",
-    "title": "Bar charts",
+    "title": "Bar Charts",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
-      "Bar charts"
+      "Bar Charts",
+      "Bar Charts"
     ]
   },
   {
@@ -280,7 +280,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
+      "Exploratory Data Analysis",
       "Covariation"
     ]
   },
@@ -294,36 +294,36 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
+      "Exploratory Data Analysis",
       "Covariation"
     ]
   },
   {
     "objectID": "visualize-data/01-eda/01-eda.html",
     "href": "visualize-data/01-eda/01-eda.html",
-    "title": "Exploratory data analysis",
+    "title": "EDA",
     "section": "",
     "text": "EDA is an iterative cycle that helps you understand what your data says. When you do EDA, you:\n\nGenerate questions about your data\nSearch for answers by visualizing, transforming, and/or modeling your data\nUse what you learn to refine your questions and/or generate new questions\n\nEDA is an important part of any data analysis. You can use EDA to make discoveries about the world; or you can use EDA to ensure the quality of your data, asking questions about whether the data meets your standards or not.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
-      "Exploratory data analysis"
+      "Exploratory Data Analysis",
+      "EDA"
     ]
   },
   {
     "objectID": "visualize-data/01-eda/01-eda.html#section",
     "href": "visualize-data/01-eda/01-eda.html#section",
-    "title": "Exploratory data analysis",
+    "title": "EDA",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
-      "Exploratory data analysis"
+      "Exploratory Data Analysis",
+      "EDA"
     ]
   },
   {
@@ -336,7 +336,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "Challenges"
     ]
   },
@@ -350,7 +350,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "Challenges"
     ]
   },
@@ -364,7 +364,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`group_by()` and `summarize()`"
     ]
   },
@@ -378,64 +378,64 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`group_by()` and `summarize()`"
     ]
   },
   {
-    "objectID": "transform-data/03-deriving/01-most-popular-names.html",
-    "href": "transform-data/03-deriving/01-most-popular-names.html",
-    "title": "The most popular names",
+    "objectID": "transform-data/03-deriving/01-motivation.html",
+    "href": "transform-data/03-deriving/01-motivation.html",
+    "title": "Motivation",
     "section": "",
     "text": "Let’s use babynames to answer a different question: what are the most popular names of all time?\nThis question seems simple enough, but to answer it we need to be more precise: how do you define “the most popular” names? Try to think of several definitions and then click Continue. After the Continue button, I will suggest two definitions of my own.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
-      "The most popular names"
+      "Deriving Information",
+      "Motivation"
     ]
   },
   {
-    "objectID": "transform-data/03-deriving/01-most-popular-names.html#section",
-    "href": "transform-data/03-deriving/01-most-popular-names.html#section",
-    "title": "The most popular names",
+    "objectID": "transform-data/03-deriving/01-motivation.html#section",
+    "href": "transform-data/03-deriving/01-motivation.html#section",
+    "title": "Motivation",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
-      "The most popular names"
+      "Deriving Information",
+      "Motivation"
     ]
   },
   {
     "objectID": "transform-data/02-isolating/05-pipe.html",
     "href": "transform-data/02-isolating/05-pipe.html",
-    "title": "|>",
+    "title": "Pipes",
     "section": "",
     "text": "Notice how each {dplyr} function takes a data frame as input and returns a data frame as output. This makes the functions easy to use in a step-by-step fashion. For example, you could:\n\nFilter babynames to just boys born in 2017\nSelect the name and n columns from the result\nArrange those columns so that the most popular names appear near the top.\n\n\nboys_2017 &lt;- filter(babynames, year == 2017, sex == \"M\")\nboys_2017 &lt;- select(boys_2017, name, n)\nboys_2017 &lt;- arrange(boys_2017, desc(n))\nboys_2017\n\n# A tibble: 14,160 × 2\n   name         n\n   &lt;chr&gt;    &lt;int&gt;\n 1 Liam     18728\n 2 Noah     18326\n 3 William  14904\n 4 James    14232\n 5 Logan    13974\n 6 Benjamin 13733\n 7 Mason    13502\n 8 Elijah   13268\n 9 Oliver   13141\n10 Jacob    13106\n# ℹ 14,150 more rows",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
-      "`|>`"
+      "Isolating Data",
+      "Pipes"
     ]
   },
   {
-    "objectID": "transform-data/02-isolating/05-pipe.html#section-1",
-    "href": "transform-data/02-isolating/05-pipe.html#section-1",
-    "title": "|>",
+    "objectID": "transform-data/02-isolating/05-pipe.html#section",
+    "href": "transform-data/02-isolating/05-pipe.html#section",
+    "title": "Pipes",
     "section": "",
     "text": "Continue\n\n\nStart over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
-      "`|>`"
+      "Isolating Data",
+      "Pipes"
     ]
   },
   {
@@ -448,7 +448,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`filter()`"
     ]
   },
@@ -462,134 +462,134 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`filter()`"
     ]
   },
   {
-    "objectID": "transform-data/02-isolating/01-your-name.html",
-    "href": "transform-data/02-isolating/01-your-name.html",
-    "title": "Your name",
+    "objectID": "transform-data/02-isolating/01-motivation.html",
+    "href": "transform-data/02-isolating/01-motivation.html",
+    "title": "Motivation",
     "section": "",
     "text": "You can use the data in babynames to make graphs like this, which reveal the history of a name, perhaps your name.\n\n\n\n\n\n\n\n\n\nBut before you do, you will need to trim down babynames. At the moment, there are more rows in babynames than you need to build your plot.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
-      "Your name"
+      "Isolating Data",
+      "Motivation"
     ]
   },
   {
-    "objectID": "transform-data/02-isolating/01-your-name.html#section",
-    "href": "transform-data/02-isolating/01-your-name.html#section",
-    "title": "Your name",
+    "objectID": "transform-data/02-isolating/01-motivation.html#section",
+    "href": "transform-data/02-isolating/01-motivation.html#section",
+    "title": "Motivation",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
-      "Your name"
+      "Isolating Data",
+      "Motivation"
     ]
   },
   {
     "objectID": "transform-data/01-tibbles/03-tidyverse.html",
     "href": "transform-data/01-tibbles/03-tidyverse.html",
-    "title": "tidyverse",
+    "title": "Tidyverse",
     "section": "",
     "text": "The {tibble} package is one of several packages that are known collectively as “the tidyverse”. Tidyverse packages share a common philosophy and are designed to work well together. For example, in this tutorial you will use the {tibble} package, the {ggplot2} package, and the {dplyr} package, all of which belong to the tidyverse.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles",
-      "tidyverse"
+      "Tibbles",
+      "Tidyverse"
     ]
   },
   {
     "objectID": "transform-data/01-tibbles/03-tidyverse.html#section",
     "href": "transform-data/01-tibbles/03-tidyverse.html#section",
-    "title": "tidyverse",
+    "title": "Tidyverse",
     "section": "",
     "text": "Continue\n\n\nStart over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles",
-      "tidyverse"
+      "Tibbles",
+      "Tidyverse"
     ]
   },
   {
-    "objectID": "transform-data/01-tibbles/01-babynames.html",
-    "href": "transform-data/01-tibbles/01-babynames.html",
-    "title": "babynames",
+    "objectID": "transform-data/01-tibbles/01-example-data.html",
+    "href": "transform-data/01-tibbles/01-example-data.html",
+    "title": "Example Data",
     "section": "",
     "text": "Before we begin, let’s learn a little about our data. The babynames dataset comes in the {babynames} package. The package is pre-installed for you, just as {ggplot2} was pre-installed in the last tutorial. But unlike in the last tutorial, I have not pre-loaded {babynames}, or any other package.\nWhat does this mean? In R, whenever you want to use a package that is not part of base R, you need to load the package with the command library(). Until you load a package, R will not be able to find the datasets and functions contained in the package. For example, if we asked R to display the babynames dataset, which comes in the {babynames} package, right now, we’d get the message below. R cannot find the dataset because we haven’t loaded the {babynames} package.\n\nbabynames\n\nError in eval(expr, envir, enclos): object 'babynames' not found\n\n\nTo load the {babynames} package, you would run the command library(babynames). After you load a package, R will be able to find its contents until you close R. The next time you open R, you will need to reload the package if you wish to use it again.\nThis might sound like an inconvenience, but choosing which packages to load keeps your R experience simple and orderly.\nIn the chunk below, load {babynames} (the package) and then open the help page for babynames (the dataset). Be sure to read the help page before going on.\n\n Interactive editor Solution\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nlibrary(babynames)\n?babynames",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles",
-      "babynames"
+      "Tibbles",
+      "Example Data"
     ]
   },
   {
-    "objectID": "transform-data/01-tibbles/01-babynames.html#section",
-    "href": "transform-data/01-tibbles/01-babynames.html#section",
-    "title": "babynames",
+    "objectID": "transform-data/01-tibbles/01-example-data.html#section",
+    "href": "transform-data/01-tibbles/01-example-data.html#section",
+    "title": "Example Data",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles",
-      "babynames"
+      "Tibbles",
+      "Example Data"
     ]
   },
   {
     "objectID": "tidy-data/01-reshape-data/03-long-to-wide.html#section-5",
     "href": "tidy-data/01-reshape-data/03-long-to-wide.html#section-5",
-    "title": "Long to wide",
+    "title": "Long to Wide",
     "section": "",
     "text": "Continue\n\n\nStart over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data",
-      "Long to wide"
+      "Reshaping Data",
+      "Long to Wide"
     ]
   },
   {
     "objectID": "tidy-data/01-reshape-data/01-tidy-data.html",
     "href": "tidy-data/01-reshape-data/01-tidy-data.html",
-    "title": "Tidy data",
+    "title": "Tidy Data",
     "section": "",
     "text": "In the exploratory data analysis primer, we proposed three definitions that are useful for data science:\n\nA variable is a quantity, quality, or property that you can measure.\nA value is the state of a variable when you measure it. The value of a variable may change from measurement to measurement.\nAn observation is a set of measurements that are made under similar conditions (you usually make all of the measurements in an observation at the same time and on the same object). An observation will contain several values, each associated with a different variable. I’ll sometimes refer to an observation as a case or data point.\n\nThese definitions are tied to the concept of tidy data. To see how, let’s apply the definitions to some real data.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data",
-      "Tidy data"
+      "Reshaping Data",
+      "Tidy Data"
     ]
   },
   {
     "objectID": "tidy-data/01-reshape-data/01-tidy-data.html#section",
     "href": "tidy-data/01-reshape-data/01-tidy-data.html#section",
-    "title": "Tidy data",
+    "title": "Tidy Data",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data",
-      "Tidy data"
+      "Reshaping Data",
+      "Tidy Data"
     ]
   },
   {
@@ -615,7 +615,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Packages"
     ]
   },
@@ -628,7 +628,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Packages"
     ]
   },
@@ -641,7 +641,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Types"
     ]
   },
@@ -654,7 +654,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Types"
     ]
   },
@@ -667,7 +667,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Objects"
     ]
   },
@@ -680,7 +680,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Objects"
     ]
   },
@@ -693,7 +693,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Functions"
     ]
   },
@@ -706,60 +706,60 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Functions"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/04-ggplot2-package.html",
     "href": "basics/01-visualization-basics/04-ggplot2-package.html",
-    "title": "The ggplot2 package",
+    "title": "The ggplot2 Package",
     "section": "",
     "text": "Throughout this tutorial, I’ve referred to ggplot2 as a package. What does that mean?\nThe R language is subdivided into packages, small collections of data sets and functions that all focus on a single task. The functions that we used in this tutorial come from one of those packages, the ggplot2 package, which focuses on visualizing data.",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "The ggplot2 package"
+      "Data Visualization",
+      "The ggplot2 Package"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/04-ggplot2-package.html#section",
     "href": "basics/01-visualization-basics/04-ggplot2-package.html#section",
-    "title": "The ggplot2 package",
+    "title": "The ggplot2 Package",
     "section": "",
     "text": "Continue\n\n\nStart over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "The ggplot2 package"
+      "Data Visualization",
+      "The ggplot2 Package"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/02-aesthetic-mappings.html",
     "href": "basics/01-visualization-basics/02-aesthetic-mappings.html",
-    "title": "Aesthetic mappings",
+    "title": "Aesthetic Mappings",
     "section": "",
     "text": "“The greatest value of a picture is when it forces us to notice what we never expected to see.”\n— John Tukey",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "Aesthetic mappings"
+      "Data Visualization",
+      "Aesthetic Mappings"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/02-aesthetic-mappings.html#section-8",
     "href": "basics/01-visualization-basics/02-aesthetic-mappings.html#section-8",
-    "title": "Aesthetic mappings",
+    "title": "Aesthetic Mappings",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "Aesthetic mappings"
+      "Data Visualization",
+      "Aesthetic Mappings"
     ]
   },
   {
@@ -814,77 +814,77 @@
   {
     "objectID": "basics/01-visualization-basics/01-general-ideas.html",
     "href": "basics/01-visualization-basics/01-general-ideas.html",
-    "title": "General ideas",
+    "title": "General Ideas",
     "section": "",
     "text": "“The simple graph has brought more information to the data analyst’s mind than any other device.”\n— John Tukey",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "General ideas"
+      "Data Visualization",
+      "General Ideas"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/01-general-ideas.html#section-8",
     "href": "basics/01-visualization-basics/01-general-ideas.html#section-8",
-    "title": "General ideas",
+    "title": "General Ideas",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "General ideas"
+      "Data Visualization",
+      "General Ideas"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/03-geometric-objects.html",
     "href": "basics/01-visualization-basics/03-geometric-objects.html",
-    "title": "Geometric objects",
+    "title": "Geometric Objects",
     "section": "",
     "text": "How are these two plots similar?\nBoth plots contain the same x variable, the same y variable, and both describe the same data. But the plots are not identical. Each plot uses a different visual object to represent the data. In ggplot2 syntax, we say that they use different geoms.\nA geom is the geometrical object that a plot uses to represent observations. People often describe plots by the type of geom that the plot uses. For example, bar charts use bar geoms, line charts use line geoms, boxplots use boxplot geoms, and so on. Scatterplots break the trend; they use the point geom.\nAs we see above, you can use different geoms to plot the same data. The plot on the left uses the point geom, and the plot on the right uses the smooth geom, a smooth line fitted to the data.",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "Geometric objects"
+      "Data Visualization",
+      "Geometric Objects"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/03-geometric-objects.html#section-1",
     "href": "basics/01-visualization-basics/03-geometric-objects.html#section-1",
-    "title": "Geometric objects",
+    "title": "Geometric Objects",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization",
-      "Geometric objects"
+      "Data Visualization",
+      "Geometric Objects"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/index.html",
     "href": "basics/01-visualization-basics/index.html",
-    "title": "Data visualization",
+    "title": "Data Visualization",
     "section": "",
     "text": "Visualization is one of the most important tools for data science.\nIt is also a great way to start learning R; when you visualize data, you get an immediate payoff that will keep you motivated as you learn. After all, learning a new language can be hard!\nThis tutorial will teach you how to visualize data with R’s most popular visualization package, ggplot2.",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization"
+      "Data Visualization"
     ]
   },
   {
     "objectID": "basics/01-visualization-basics/index.html#section-1",
     "href": "basics/01-visualization-basics/index.html#section-1",
-    "title": "Data visualization",
+    "title": "Data Visualization",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Data visualization"
+      "Data Visualization"
     ]
   },
   {
@@ -896,7 +896,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Arguments"
     ]
   },
@@ -909,7 +909,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Arguments"
     ]
   },
@@ -922,7 +922,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Vectors"
     ]
   },
@@ -935,7 +935,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Vectors"
     ]
   },
@@ -948,7 +948,7 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Lists"
     ]
   },
@@ -961,32 +961,32 @@
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics",
+      "Programming Basics",
       "Lists"
     ]
   },
   {
     "objectID": "basics/02-programming-basics/index.html",
     "href": "basics/02-programming-basics/index.html",
-    "title": "Programming basics",
+    "title": "Programming Basics",
     "section": "",
     "text": "R is easiest to use when you know how the R language works. This tutorial will teach you the implicit background knowledge that informs every piece of R code. You’ll learn about:\n\nfunctions and their arguments\nobjects\nR’s basic data types\nR’s basic data structures including vectors and lists\nR’s package system",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics"
+      "Programming Basics"
     ]
   },
   {
     "objectID": "basics/02-programming-basics/index.html#section",
     "href": "basics/02-programming-basics/index.html#section",
-    "title": "Programming basics",
+    "title": "Programming Basics",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "At-Home Exercises",
-      "Programming basics"
+      "Programming Basics"
     ]
   },
   {
@@ -999,81 +999,81 @@
   {
     "objectID": "tidy-data/01-reshape-data/02-wide-to-long.html#section-4",
     "href": "tidy-data/01-reshape-data/02-wide-to-long.html#section-4",
-    "title": "Wide to long",
+    "title": "Wide to Long",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data",
-      "Wide to long"
+      "Reshaping Data",
+      "Wide to Long"
     ]
   },
   {
     "objectID": "tidy-data/01-reshape-data/index.html",
     "href": "tidy-data/01-reshape-data/index.html",
-    "title": "Reshape data",
+    "title": "Reshaping Data",
     "section": "",
     "text": "The tools that you learned in the previous Primers work best when your data is organized in a specific way. This format is known as tidy data and it appears throughout the tidyverse. You will spend a lot of time as a data scientist wrangling your data into a usable format, so it is important to learn how to do this fast.\nThis tutorial will teach you how to recognize tidy data, as well as how to reshape untidy data into a tidy format. In it, you will learn the core data wrangling functions for the tidyverse:\nThis tutorial uses the core tidyverse packages, including {ggplot2}, {dplyr}, and {tidyr}, as well as the {babynames} package. All of these packages have been pre-installed and pre-loaded for your convenience.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data"
+      "Reshaping Data"
     ]
   },
   {
     "objectID": "tidy-data/01-reshape-data/index.html#section",
     "href": "tidy-data/01-reshape-data/index.html#section",
-    "title": "Reshape data",
+    "title": "Reshaping Data",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Tidying Data",
-      "Reshape data"
+      "Reshaping Data"
     ]
   },
   {
     "objectID": "transform-data/01-tibbles/02-tibbles.html#section-1",
     "href": "transform-data/01-tibbles/02-tibbles.html#section-1",
-    "title": "tibbles",
+    "title": "Tibbles",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles",
-      "tibbles"
+      "Tibbles",
+      "Tibbles"
     ]
   },
   {
     "objectID": "transform-data/01-tibbles/index.html",
     "href": "transform-data/01-tibbles/index.html",
-    "title": "Working with tibbles",
+    "title": "Tibbles",
     "section": "",
     "text": "In this primer, you will explore the popularity of different names over time. To succeed, you will need to master some common tools for manipulating data with R:\nThese are some of the most useful R functions for data science, and the tutorials that follow will provide you everything you need to learn them.\nIn the tutorials, we’ll use a dataset named babynames, which comes in a package that is also named babynames. Within babynames, you will find information about almost every name given to children in the United States since 1880.\nThis tutorial introduces babynames as well as a new data structure that makes working with data in R easy: the tibble.\nIn addition to babynames, this tutorial uses the core tidyverse packages, including {ggplot2}, {tibble}, and {dplyr.} All of these packages have been pre-installed for your convenience. But they haven’t been pre-loaded—something you will soon learn more about!",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles"
+      "Tibbles"
     ]
   },
   {
     "objectID": "transform-data/01-tibbles/index.html#section",
     "href": "transform-data/01-tibbles/index.html#section",
-    "title": "Working with tibbles",
+    "title": "Tibbles",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Working with tibbles"
+      "Tibbles"
     ]
   },
   {
@@ -1086,7 +1086,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`select()`"
     ]
   },
@@ -1100,7 +1100,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`select()`"
     ]
   },
@@ -1114,7 +1114,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`arrange()`"
     ]
   },
@@ -1128,34 +1128,34 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}",
+      "Isolating Data",
       "`arrange()`"
     ]
   },
   {
     "objectID": "transform-data/02-isolating/index.html",
     "href": "transform-data/02-isolating/index.html",
-    "title": "Isolating data with {dplyr}",
+    "title": "Isolating Data",
     "section": "",
     "text": "In this case study, you will explore the popularity of your own name over time. Along the way, you will master some of the most useful functions for isolating variables, cases, and values within a data frame:\nThis tutorial uses the core tidyverse packages, including {ggplot2}, {tibble}, and {dplyr}, as well as the {babynames} package. All of these packages have been pre-installed and pre-loaded for your convenience.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}"
+      "Isolating Data"
     ]
   },
   {
     "objectID": "transform-data/02-isolating/index.html#section",
     "href": "transform-data/02-isolating/index.html#section",
-    "title": "Isolating data with {dplyr}",
+    "title": "Isolating Data",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Isolating data with {dplyr}"
+      "Isolating Data"
     ]
   },
   {
@@ -1168,7 +1168,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`summarize()`"
     ]
   },
@@ -1182,7 +1182,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`summarize()`"
     ]
   },
@@ -1196,7 +1196,7 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`mutate()`"
     ]
   },
@@ -1210,34 +1210,34 @@
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}",
+      "Deriving Information",
       "`mutate()`"
     ]
   },
   {
     "objectID": "transform-data/03-deriving/index.html",
     "href": "transform-data/03-deriving/index.html",
-    "title": "Deriving information with {dplyr}",
+    "title": "Deriving Information",
     "section": "",
     "text": "In this case study, you will identify the most popular American names from 1880 to 2015. While doing this, you will master three more dplyr functions:\nThese are some of the most useful R functions for data science, and this tutorial provides everything you need to learn them.\nThis tutorial uses the core tidyverse packages, including {ggplot2}, {tibble}, and {dplyr}, as well as the babynames package. All of these packages have been pre-installed and pre-loaded for your convenience.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}"
+      "Deriving Information"
     ]
   },
   {
     "objectID": "transform-data/03-deriving/index.html#section",
     "href": "transform-data/03-deriving/index.html#section",
-    "title": "Deriving information with {dplyr}",
+    "title": "Deriving Information",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Transforming Data",
-      "Deriving information with {dplyr}"
+      "Deriving Information"
     ]
   },
   {
@@ -1250,7 +1250,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
+      "Exploratory Data Analysis",
       "Variation"
     ]
   },
@@ -1264,34 +1264,34 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis",
+      "Exploratory Data Analysis",
       "Variation"
     ]
   },
   {
     "objectID": "visualize-data/01-eda/index.html",
     "href": "visualize-data/01-eda/index.html",
-    "title": "Exploratory data analysis",
+    "title": "Exploratory Data Analysis",
     "section": "",
     "text": "This tutorial will show you how to explore your data in a systematic way, a task that statisticians call exploratory data analysis, or EDA for short. In the tutorial you will:\nThe tutorial is excerpted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis"
+      "Exploratory Data Analysis"
     ]
   },
   {
     "objectID": "visualize-data/01-eda/index.html#section",
     "href": "visualize-data/01-eda/index.html#section",
-    "title": "Exploratory data analysis",
+    "title": "Exploratory Data Analysis",
     "section": "",
     "text": "Continue\n\nNext topic Start over",
     "crumbs": [
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Exploratory data analysis"
+      "Exploratory Data Analysis"
     ]
   },
   {
@@ -1304,7 +1304,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
+      "Bar Charts",
       "Aesthetics"
     ]
   },
@@ -1318,7 +1318,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
+      "Bar Charts",
       "Aesthetics"
     ]
   },
@@ -1332,7 +1332,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
+      "Bar Charts",
       "Facets"
     ]
   },
@@ -1346,7 +1346,7 @@
       "About",
       "In-Class Exercises",
       "Visualizing Data",
-      "Bar charts",
+      "Bar Charts",
       "Facets"
     ]
   },
