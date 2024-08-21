@@ -4,7 +4,7 @@ format:
   html: 
     toc: false
     section-divs: true
-    include-after-body: 
+    include-before-body: 
       - text: |
           <script src="/js/progressive-reveal.js"></script>
           <script src="/js/bootstrapify.js"></script>
