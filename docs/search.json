@@ -206,7 +206,7 @@
     "href": "visualize-data/02-bar-charts/index.html#section",
     "title": "Bar Charts",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -618,7 +618,7 @@
     "href": "class.html#section",
     "title": "In-Class Exercises",
     "section": "",
-    "text": "Begin Exercises   Restart Topic"
+    "text": "Begin Exercises"
   },
   {
     "objectID": "basics/02-programming-basics/07-packages.html",
@@ -877,7 +877,7 @@
     "href": "basics/01-visualization-basics/index.html#section-1",
     "title": "Data Visualization",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization"
@@ -971,7 +971,7 @@
     "href": "basics/02-programming-basics/index.html#section",
     "title": "Programming Basics",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics"
@@ -989,7 +989,7 @@
     "href": "home.html#section",
     "title": "At-Home Exercises",
     "section": "",
-    "text": "Begin Exercises   Restart Topic"
+    "text": "Begin Exercises"
   },
   {
     "objectID": "LICENSE.html",
@@ -1030,7 +1030,7 @@
     "href": "tidy-data/01-reshape-data/index.html#section",
     "title": "Reshaping Data",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1070,7 +1070,7 @@
     "href": "transform-data/01-tibbles/index.html#section",
     "title": "Tibbles",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1152,7 +1152,7 @@
     "href": "transform-data/02-isolating/index.html#section",
     "title": "Isolating Data",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1234,7 +1234,7 @@
     "href": "transform-data/03-deriving/index.html#section",
     "title": "Deriving Information",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1288,7 +1288,7 @@
     "href": "visualize-data/01-eda/index.html#section",
     "title": "Exploratory Data Analysis",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1454,7 +1454,7 @@
     "href": "visualize-data/05-scatterplots/index.html#section",
     "title": "Scatterplots",
     "section": "",
-    "text": "Continue   Restart Topic",
+    "text": "Continue",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
