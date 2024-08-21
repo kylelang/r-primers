@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scales – R Primers</title>
+<title>Scales – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"label":"unnamed-chunk-1","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"setup","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"true","fig-height":"3.7","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"p1 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price)) +\n  geom_smooth(mapping = aes(color = cut), se = FALSE) + \n  labs(title = \"Carat size vs. Price\",\n       subtitle = \"Fair cut diamonds tend to be large, but they fetch the lowest prices for most carat sizes.\",\n       caption = \"Data by Hadley Wickham\") +\n  theme_bw()\n\np_cont <- ggplot(data = mpg) + \n  geom_jitter(mapping = aes(x = displ, y = hwy, color = hwy)) +\n  theme_bw()"},{"id":2,"options":{"label":"unnamed-chunk-2","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"interactive","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"false","fig-height":"3.7","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"p1 + scale_color_brewer()\n"},{"id":3,"options":{"label":"unnamed-chunk-3","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"interactive","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"false","fig-height":"8","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"RColorBrewer::display.brewer.all()\n"},{"id":4,"options":{"label":"unnamed-chunk-4","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"interactive","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"false","fig-height":"3.7","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"p1\n"},{"id":5,"options":{"label":"unnamed-chunk-5","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"interactive","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"false","fig-height":"3.7","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"p_cont\n"},{"id":6,"options":{"label":"unnamed-chunk-6","out-width":"70%","message":"true","editor-quick-suggestions":"false","fig-width":"6","comment":"","results":"markup","output":"true","context":"interactive","out-height":"","dpi":72,"editor-word-wrap":"true","classes":"","read-only":"false","autorun":"false","fig-height":"3.7","editor-font-scale":"0.85","fig-cap":"","editor-max-height":"","warning":"true"},"code":"p_cont + scale_color_viridis_c(option = \"turbo\")\n"}];
+globalThis.qwebrCellDetails = [{"code":"p1 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price)) +\n  geom_smooth(mapping = aes(color = cut), se = FALSE) + \n  labs(title = \"Carat size vs. Price\",\n       subtitle = \"Fair cut diamonds tend to be large, but they fetch the lowest prices for most carat sizes.\",\n       caption = \"Data by Hadley Wickham\") +\n  theme_bw()\n\np_cont <- ggplot(data = mpg) + \n  geom_jitter(mapping = aes(x = displ, y = hwy, color = hwy)) +\n  theme_bw()","id":1,"options":{"fig-width":"6","message":"true","warning":"true","context":"setup","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"true","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-1","out-width":"70%","classes":""}},{"code":"p1 + scale_color_brewer()\n","id":2,"options":{"fig-width":"6","message":"true","warning":"true","context":"interactive","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"false","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-2","out-width":"70%","classes":""}},{"code":"RColorBrewer::display.brewer.all()\n","id":3,"options":{"fig-width":"6","message":"true","warning":"true","context":"interactive","fig-height":"8","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"false","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-3","out-width":"70%","classes":""}},{"code":"p1\n","id":4,"options":{"fig-width":"6","message":"true","warning":"true","context":"interactive","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"false","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-4","out-width":"70%","classes":""}},{"code":"p_cont\n","id":5,"options":{"fig-width":"6","message":"true","warning":"true","context":"interactive","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"false","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-5","out-width":"70%","classes":""}},{"code":"p_cont + scale_color_viridis_c(option = \"turbo\")\n","id":6,"options":{"fig-width":"6","message":"true","warning":"true","context":"interactive","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","read-only":"false","fig-cap":"","editor-font-scale":"0.85","results":"markup","editor-word-wrap":"true","comment":"","autorun":"false","editor-max-height":"","output":"true","dpi":72,"label":"unnamed-chunk-6","out-width":"70%","classes":""}}];
 
 </script>
 <script type="module">
@@ -1629,7 +1629,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1639,11 +1639,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2614,7 +2622,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <button id="continueButton" class="btn btn-primary float-start me-2">
 Continue
 </button>
-<a id="nextTopicButton" class="btn btn-danger disabled" href="05-legends.html" role="button">Next topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start over</button>
+<a id="nextTopicButton" class="btn btn-danger disabled" href="05-legends.html" role="button">Next Topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start Over</button>
 </section>
 </div>
 

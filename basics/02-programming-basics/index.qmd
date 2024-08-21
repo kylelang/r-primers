@@ -13,7 +13,7 @@ format:
 source(here::here("R", "helpers.R"))
 ```
 
-### Welcome to R! {.no-hide}
+### Welcome to R programming! {.no-hide}
 
 R is easiest to use when you know how the R language works. This tutorial will teach you the implicit background knowledge that informs every piece of R code. You'll learn about:
 
@@ -28,5 +28,5 @@ R is easiest to use when you know how the R language works. This tutorial will t
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-functions.html")
+first_buttons("01-functions.html")
 ```

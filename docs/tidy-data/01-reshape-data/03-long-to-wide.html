@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Long to Wide – R Primers</title>
+<title>Long to Wide – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"pollution <- tribble(\n       ~city,   ~size, ~amount,\n  \"New York\", \"large\",      23,\n  \"New York\", \"small\",      14,\n    \"London\", \"large\",      22,\n    \"London\", \"small\",      16,\n   \"Beijing\", \"large\",     121,\n   \"Beijing\", \"small\",     121\n)","options":{"context":"setup","fig-height":"3.7","warning":"true","label":"unnamed-chunk-1","results":"markup","out-width":"70%","fig-cap":"","out-height":"","editor-quick-suggestions":"false","message":"true","editor-max-height":"","editor-word-wrap":"true","editor-font-scale":"0.85","fig-width":"6","comment":"","dpi":72,"autorun":"true","classes":"","output":"true","read-only":"false"},"id":1},{"code":"","options":{"context":"interactive","fig-height":"3.7","warning":"true","label":"unnamed-chunk-2","results":"markup","out-width":"70%","fig-cap":"","out-height":"","editor-quick-suggestions":"false","message":"true","editor-max-height":"","editor-word-wrap":"true","editor-font-scale":"0.85","fig-width":"6","comment":"","dpi":72,"autorun":"false","classes":"","output":"true","read-only":"false"},"id":2},{"code":"babynames\n","options":{"context":"interactive","fig-height":"3.7","warning":"true","label":"unnamed-chunk-3","results":"markup","out-width":"70%","fig-cap":"","out-height":"","editor-quick-suggestions":"false","message":"true","editor-max-height":"","editor-word-wrap":"true","editor-font-scale":"0.85","fig-width":"6","comment":"","dpi":72,"autorun":"false","classes":"","output":"true","read-only":"false"},"id":3},{"code":"babynames |>\n  group_by(year, sex) |> \n  summarise(total = sum(n))\n","options":{"context":"interactive","fig-height":"3.7","warning":"true","label":"unnamed-chunk-4","results":"markup","out-width":"70%","fig-cap":"","out-height":"","editor-quick-suggestions":"false","message":"true","editor-max-height":"","editor-word-wrap":"true","editor-font-scale":"0.85","fig-width":"6","comment":"","dpi":72,"autorun":"false","classes":"","output":"true","read-only":"false"},"id":4},{"code":"babynames |>\n  group_by(year, sex) |> \n  summarise(total = sum(n))\n","options":{"context":"interactive","fig-height":"3.7","warning":"true","label":"unnamed-chunk-5","results":"markup","out-width":"70%","fig-cap":"","out-height":"","editor-quick-suggestions":"false","message":"true","editor-max-height":"","editor-word-wrap":"true","editor-font-scale":"0.85","fig-width":"6","comment":"","dpi":72,"autorun":"false","classes":"","output":"true","read-only":"false"},"id":5}];
+globalThis.qwebrCellDetails = [{"id":1,"code":"pollution <- tribble(\n       ~city,   ~size, ~amount,\n  \"New York\", \"large\",      23,\n  \"New York\", \"small\",      14,\n    \"London\", \"large\",      22,\n    \"London\", \"small\",      16,\n   \"Beijing\", \"large\",     121,\n   \"Beijing\", \"small\",     121\n)","options":{"output":"true","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","warning":"true","autorun":"true","fig-height":"3.7","classes":"","editor-word-wrap":"true","fig-width":"6","out-width":"70%","message":"true","comment":"","editor-font-scale":"0.85","label":"unnamed-chunk-1","out-height":"","context":"setup","dpi":72,"results":"markup","fig-cap":""}},{"id":2,"code":"","options":{"output":"true","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","warning":"true","autorun":"false","fig-height":"3.7","classes":"","editor-word-wrap":"true","fig-width":"6","out-width":"70%","message":"true","comment":"","editor-font-scale":"0.85","label":"unnamed-chunk-2","out-height":"","context":"interactive","dpi":72,"results":"markup","fig-cap":""}},{"id":3,"code":"babynames\n","options":{"output":"true","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","warning":"true","autorun":"false","fig-height":"3.7","classes":"","editor-word-wrap":"true","fig-width":"6","out-width":"70%","message":"true","comment":"","editor-font-scale":"0.85","label":"unnamed-chunk-3","out-height":"","context":"interactive","dpi":72,"results":"markup","fig-cap":""}},{"id":4,"code":"babynames |>\n  group_by(year, sex) |> \n  summarise(total = sum(n))\n","options":{"output":"true","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","warning":"true","autorun":"false","fig-height":"3.7","classes":"","editor-word-wrap":"true","fig-width":"6","out-width":"70%","message":"true","comment":"","editor-font-scale":"0.85","label":"unnamed-chunk-4","out-height":"","context":"interactive","dpi":72,"results":"markup","fig-cap":""}},{"id":5,"code":"babynames |>\n  group_by(year, sex) |> \n  summarise(total = sum(n))\n","options":{"output":"true","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","warning":"true","autorun":"false","fig-height":"3.7","classes":"","editor-word-wrap":"true","fig-width":"6","out-width":"70%","message":"true","comment":"","editor-font-scale":"0.85","label":"unnamed-chunk-5","out-height":"","context":"interactive","dpi":72,"results":"markup","fig-cap":""}}];
 
 </script>
 <script type="module">
@@ -1629,7 +1629,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1639,11 +1639,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2603,7 +2611,7 @@ Older names
 </section>
 <section id="boys-and-girls-in-babynames" class="level3">
 <h3 class="anchored" data-anchor-id="boys-and-girls-in-babynames">Boys and girls in {babynames}</h3>
-<p>Let’s apply <code>pivot_wider()</code> to a real world inquiry. The plot below visualizes an aspect of the <code>babynames</code> data set from the <strong>babynames</strong> package. (See <a href="../../transform-data/01-tibbles/01-babynames.qmd">Work with Data</a> for an introduction to the <code>babynames</code> dataset.)</p>
+<p>Let’s apply <code>pivot_wider()</code> to a real world inquiry. The plot below visualizes an aspect of the <code>babynames</code> data set from the <strong>babynames</strong> package.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -2843,7 +2851,7 @@ Older names
 Continue
 </button>
 <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
-Start over
+Start Over
 </button>
 </section>
 </div>

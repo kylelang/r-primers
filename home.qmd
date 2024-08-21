@@ -1,7 +1,6 @@
 ---
 title: "At-Home Exercises"
 sidebar: false
-
 engine: knitr
 filters:
   - webr
@@ -16,16 +15,9 @@ webr:
 ::: {.callout-note}
 ## Attribution Note
 
-This project is a blatant clone of the R-Primers project created by
-[Andrew Heiss](https://www.andrewheiss.com/). The original version of this website
-is available [here](https://r-primers.andrewheiss.com/index.html).
-
-If you've somehow stumbled onto this page in the wild, you should probably use
-Heiss' original version of this project. I'm only hosting my own copy of these
-materials to ensure that the content of the tutorials doesn't change in the middle
-of a course in which I'm relying on this resource.
-
-The remainder of this page comprises Heiss' original content.
+These exercises have been shamelessly copied from the R-Primers project created
+by [Andrew Heiss](https://www.andrewheiss.com/). The original version of Heiss'
+website is available [here](https://r-primers.andrewheiss.com/index.html).
 :::
 
 ```{r include = FALSE}
@@ -49,5 +41,5 @@ rudements of data visualization and statistical programming in R.
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("basics/01-visualization-basics/index.html")
+begin_buttons("basics/01-visualization-basics/index.html")
 ```

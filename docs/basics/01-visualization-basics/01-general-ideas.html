@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>General Ideas – R Primers</title>
+<title>General Ideas – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-1","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":1},{"code":"ggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy))\n","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-2","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":2},{"code":"# ggplot(data = <DATA>) + \n#  <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-3","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":3},{"code":"","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-4","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":4},{"code":"","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-5","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":5},{"code":"","options":{"autorun":"false","dpi":72,"editor-max-height":"","out-width":"70%","editor-font-scale":"0.85","context":"interactive","fig-cap":"","output":"true","message":"true","results":"markup","warning":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","label":"unnamed-chunk-6","read-only":"false","comment":"","classes":"","fig-height":"3.7","editor-word-wrap":"true"},"id":6}];
+globalThis.qwebrCellDetails = [{"id":1,"code":"","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-1","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}},{"id":2,"code":"ggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy))\n","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-2","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}},{"id":3,"code":"# ggplot(data = <DATA>) + \n#  <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-3","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}},{"id":4,"code":"","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-4","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}},{"id":5,"code":"","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-5","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}},{"id":6,"code":"","options":{"warning":"true","editor-max-height":"","comment":"","label":"unnamed-chunk-6","classes":"","out-height":"","editor-word-wrap":"true","message":"true","fig-cap":"","output":"true","context":"interactive","out-width":"70%","read-only":"false","fig-width":"6","results":"markup","autorun":"false","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","fig-height":"3.7"}}];
 
 </script>
 <script type="module">
@@ -1600,7 +1600,7 @@ globalThis.qwebrExecuteCode = async function (
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1610,11 +1610,19 @@ globalThis.qwebrExecuteCode = async function (
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2576,7 +2584,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <button id="continueButton" class="btn btn-primary float-start me-2">
 Continue
 </button>
-<a id="nextTopicButton" class="btn btn-danger disabled" href="02-aesthetic-mappings.html" role="button">Next topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start over</button>
+<a id="nextTopicButton" class="btn btn-danger disabled" href="02-aesthetic-mappings.html" role="button">Next Topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start Over</button>
 </section>
 </div>
 

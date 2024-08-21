@@ -44,5 +44,5 @@ In addition to `babynames`, this tutorial uses the [core tidyverse packages](htt
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-example-data.html")
+first_buttons("01-example-data.html")
 ```

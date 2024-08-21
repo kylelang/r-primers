@@ -41,5 +41,5 @@ The tutorial uses the {ggplot2}, {ggrepel}, and {dplyr} packages, which have bee
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-scatterplots.html")
+first_buttons("01-scatterplots.html")
 ```

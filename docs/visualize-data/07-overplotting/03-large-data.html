@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Large data – R Primers</title>
+<title>Large data – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"message":"true","out-height":"","dpi":72,"fig-width":"6","warning":"true","classes":"","output":"true","results":"markup","fig-height":"3.7","autorun":"false","fig-cap":"","comment":"","label":"unnamed-chunk-1","context":"interactive","out-width":"70%","editor-quick-suggestions":"false","editor-word-wrap":"true","editor-max-height":"","read-only":"false","editor-font-scale":"0.85"},"code":"ggplot(data = diamonds) +\n  geom_boxplot(mapping = aes(x = carat, y = price))\n"},{"id":2,"options":{"message":"true","out-height":"","dpi":72,"fig-width":"6","warning":"true","classes":"","output":"true","results":"markup","fig-height":"3.7","autorun":"false","fig-cap":"","comment":"","label":"unnamed-chunk-2","context":"interactive","out-width":"70%","editor-quick-suggestions":"false","editor-word-wrap":"true","editor-max-height":"","read-only":"false","editor-font-scale":"0.85"},"code":"ggplot(data = diamonds) +\n  geom_bin2d(mapping = aes(x = carat, y = price))\n"},{"id":3,"options":{"message":"true","out-height":"","dpi":72,"fig-width":"6","warning":"true","classes":"","output":"true","results":"markup","fig-height":"3.7","autorun":"false","fig-cap":"","comment":"","label":"unnamed-chunk-3","context":"interactive","out-width":"70%","editor-quick-suggestions":"false","editor-word-wrap":"true","editor-max-height":"","read-only":"false","editor-font-scale":"0.85"},"code":"ggplot(data = diamonds) +\n  geom_bin2d(mapping = aes(x = carat, y = price))\n"},{"id":4,"options":{"message":"true","out-height":"","dpi":72,"fig-width":"6","warning":"true","classes":"","output":"true","results":"markup","fig-height":"3.7","autorun":"false","fig-cap":"","comment":"","label":"unnamed-chunk-4","context":"interactive","out-width":"70%","editor-quick-suggestions":"false","editor-word-wrap":"true","editor-max-height":"","read-only":"false","editor-font-scale":"0.85"},"code":""}];
+globalThis.qwebrCellDetails = [{"id":1,"code":"ggplot(data = diamonds) +\n  geom_boxplot(mapping = aes(x = carat, y = price))\n","options":{"fig-width":"6","output":"true","editor-font-scale":"0.85","comment":"","autorun":"false","message":"true","out-width":"70%","classes":"","fig-cap":"","out-height":"","editor-quick-suggestions":"false","editor-max-height":"","read-only":"false","label":"unnamed-chunk-1","context":"interactive","results":"markup","warning":"true","fig-height":"3.7","dpi":72,"editor-word-wrap":"true"}},{"id":2,"code":"ggplot(data = diamonds) +\n  geom_bin2d(mapping = aes(x = carat, y = price))\n","options":{"fig-width":"6","output":"true","editor-font-scale":"0.85","comment":"","autorun":"false","message":"true","out-width":"70%","classes":"","fig-cap":"","out-height":"","editor-quick-suggestions":"false","editor-max-height":"","read-only":"false","label":"unnamed-chunk-2","context":"interactive","results":"markup","warning":"true","fig-height":"3.7","dpi":72,"editor-word-wrap":"true"}},{"id":3,"code":"ggplot(data = diamonds) +\n  geom_bin2d(mapping = aes(x = carat, y = price))\n","options":{"fig-width":"6","output":"true","editor-font-scale":"0.85","comment":"","autorun":"false","message":"true","out-width":"70%","classes":"","fig-cap":"","out-height":"","editor-quick-suggestions":"false","editor-max-height":"","read-only":"false","label":"unnamed-chunk-3","context":"interactive","results":"markup","warning":"true","fig-height":"3.7","dpi":72,"editor-word-wrap":"true"}},{"id":4,"code":"","options":{"fig-width":"6","output":"true","editor-font-scale":"0.85","comment":"","autorun":"false","message":"true","out-width":"70%","classes":"","fig-cap":"","out-height":"","editor-quick-suggestions":"false","editor-max-height":"","read-only":"false","label":"unnamed-chunk-4","context":"interactive","results":"markup","warning":"true","fig-height":"3.7","dpi":72,"editor-word-wrap":"true"}}];
 
 </script>
 <script type="module">
@@ -1600,7 +1600,7 @@ globalThis.qwebrExecuteCode = async function (
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1610,11 +1610,19 @@ globalThis.qwebrExecuteCode = async function (
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2525,7 +2533,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 Continue
 </button>
 <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
-Start over
+Start Over
 </button>
 </section>
 </div>

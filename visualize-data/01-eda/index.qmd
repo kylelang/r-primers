@@ -37,5 +37,5 @@ The tutorial is excerpted from _R for Data Science_ by Hadley Wickham and Garret
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-eda.html")
+first_buttons("01-eda.html")
 ```

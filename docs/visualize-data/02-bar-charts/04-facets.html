@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Facets – R Primers</title>
+<title>Facets – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(rows = vars(clarity), cols = vars(cut))\n","options":{"comment":"","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","read-only":"false","context":"interactive","results":"markup","out-height":"","editor-word-wrap":"true","fig-width":"6","label":"unnamed-chunk-1","classes":"","autorun":"false","message":"true","warning":"true","output":"true","fig-height":"3.7","editor-max-height":"","out-width":"70%","fig-cap":""}},{"id":2,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(cols = vars(cut))\n","options":{"comment":"","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","read-only":"false","context":"interactive","results":"markup","out-height":"","editor-word-wrap":"true","fig-width":"6","label":"unnamed-chunk-2","classes":"","autorun":"false","message":"true","warning":"true","output":"true","fig-height":"3.7","editor-max-height":"","out-width":"70%","fig-cap":""}},{"id":3,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(rows = vars(clarity))\n","options":{"comment":"","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","read-only":"false","context":"interactive","results":"markup","out-height":"","editor-word-wrap":"true","fig-width":"6","label":"unnamed-chunk-3","classes":"","autorun":"false","message":"true","warning":"true","output":"true","fig-height":"3.7","editor-max-height":"","out-width":"70%","fig-cap":""}},{"id":4,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color, fill = cut))\n","options":{"comment":"","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","read-only":"false","context":"interactive","results":"markup","out-height":"","editor-word-wrap":"true","fig-width":"6","label":"unnamed-chunk-4","classes":"","autorun":"false","message":"true","warning":"true","output":"true","fig-height":"3.7","editor-max-height":"","out-width":"70%","fig-cap":""}},{"id":5,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color, fill = cut)) +\n  facet_wrap(vars(cut), scales = \"free\")\n","options":{"comment":"","editor-quick-suggestions":"false","dpi":72,"editor-font-scale":"0.85","read-only":"false","context":"interactive","results":"markup","out-height":"","editor-word-wrap":"true","fig-width":"6","label":"unnamed-chunk-5","classes":"","autorun":"false","message":"true","warning":"true","output":"true","fig-height":"3.7","editor-max-height":"","out-width":"70%","fig-cap":""}}];
+globalThis.qwebrCellDetails = [{"id":1,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(rows = vars(clarity), cols = vars(cut))\n","options":{"comment":"","message":"true","label":"unnamed-chunk-1","out-height":"","output":"true","out-width":"70%","editor-word-wrap":"true","fig-cap":"","results":"markup","context":"interactive","read-only":"false","fig-height":"3.7","editor-max-height":"","autorun":"false","dpi":72,"fig-width":"6","editor-font-scale":"0.85","warning":"true","classes":"","editor-quick-suggestions":"false"}},{"id":2,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(cols = vars(cut))\n","options":{"comment":"","message":"true","label":"unnamed-chunk-2","out-height":"","output":"true","out-width":"70%","editor-word-wrap":"true","fig-cap":"","results":"markup","context":"interactive","read-only":"false","fig-height":"3.7","editor-max-height":"","autorun":"false","dpi":72,"fig-width":"6","editor-font-scale":"0.85","warning":"true","classes":"","editor-quick-suggestions":"false"}},{"id":3,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color)) +\n  facet_grid(rows = vars(clarity))\n","options":{"comment":"","message":"true","label":"unnamed-chunk-3","out-height":"","output":"true","out-width":"70%","editor-word-wrap":"true","fig-cap":"","results":"markup","context":"interactive","read-only":"false","fig-height":"3.7","editor-max-height":"","autorun":"false","dpi":72,"fig-width":"6","editor-font-scale":"0.85","warning":"true","classes":"","editor-quick-suggestions":"false"}},{"id":4,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color, fill = cut))\n","options":{"comment":"","message":"true","label":"unnamed-chunk-4","out-height":"","output":"true","out-width":"70%","editor-word-wrap":"true","fig-cap":"","results":"markup","context":"interactive","read-only":"false","fig-height":"3.7","editor-max-height":"","autorun":"false","dpi":72,"fig-width":"6","editor-font-scale":"0.85","warning":"true","classes":"","editor-quick-suggestions":"false"}},{"id":5,"code":"ggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = color, fill = cut)) +\n  facet_wrap(vars(cut), scales = \"free\")\n","options":{"comment":"","message":"true","label":"unnamed-chunk-5","out-height":"","output":"true","out-width":"70%","editor-word-wrap":"true","fig-cap":"","results":"markup","context":"interactive","read-only":"false","fig-height":"3.7","editor-max-height":"","autorun":"false","dpi":72,"fig-width":"6","editor-font-scale":"0.85","warning":"true","classes":"","editor-quick-suggestions":"false"}}];
 
 </script>
 <script type="module">
@@ -1629,7 +1629,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1639,11 +1639,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2471,7 +2479,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 Continue
 </button>
 <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
-Start over
+Start Over
 </button>
 </section>
 </div>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mutate() – R Primers</title>
+<title>mutate() – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"","options":{"results":"markup","editor-word-wrap":"true","autorun":"false","warning":"true","dpi":72,"comment":"","editor-quick-suggestions":"false","classes":"","fig-width":"6","label":"unnamed-chunk-1","editor-max-height":"","context":"interactive","editor-font-scale":"0.85","output":"true","fig-cap":"","message":"true","out-width":"70%","read-only":"false","fig-height":"3.7","out-height":""},"id":1},{"code":"","options":{"results":"markup","editor-word-wrap":"true","autorun":"false","warning":"true","dpi":72,"comment":"","editor-quick-suggestions":"false","classes":"","fig-width":"6","label":"unnamed-chunk-2","editor-max-height":"","context":"interactive","editor-font-scale":"0.85","output":"true","fig-cap":"","message":"true","out-width":"70%","read-only":"false","fig-height":"3.7","out-height":""},"id":2},{"code":"","options":{"results":"markup","editor-word-wrap":"true","autorun":"false","warning":"true","dpi":72,"comment":"","editor-quick-suggestions":"false","classes":"","fig-width":"6","label":"unnamed-chunk-3","editor-max-height":"","context":"interactive","editor-font-scale":"0.85","output":"true","fig-cap":"","message":"true","out-width":"70%","read-only":"false","fig-height":"3.7","out-height":""},"id":3},{"code":"babynames |> \n  mutate(rank = min_rank(desc(prop)))\n","options":{"results":"markup","editor-word-wrap":"true","autorun":"false","warning":"true","dpi":72,"comment":"","editor-quick-suggestions":"false","classes":"","fig-width":"6","label":"unnamed-chunk-4","editor-max-height":"","context":"interactive","editor-font-scale":"0.85","output":"true","fig-cap":"","message":"true","out-width":"70%","read-only":"false","fig-height":"3.7","out-height":""},"id":4},{"code":"","options":{"results":"markup","editor-word-wrap":"true","autorun":"false","warning":"true","dpi":72,"comment":"","editor-quick-suggestions":"false","classes":"","fig-width":"6","label":"unnamed-chunk-5","editor-max-height":"","context":"interactive","editor-font-scale":"0.85","output":"true","fig-cap":"","message":"true","out-width":"70%","read-only":"false","fig-height":"3.7","out-height":""},"id":5}];
+globalThis.qwebrCellDetails = [{"options":{"editor-font-scale":"0.85","out-width":"70%","editor-quick-suggestions":"false","editor-max-height":"","context":"interactive","out-height":"","fig-cap":"","editor-word-wrap":"true","message":"true","results":"markup","fig-width":"6","output":"true","label":"unnamed-chunk-1","fig-height":"3.7","warning":"true","autorun":"false","read-only":"false","dpi":72,"comment":"","classes":""},"code":"","id":1},{"options":{"editor-font-scale":"0.85","out-width":"70%","editor-quick-suggestions":"false","editor-max-height":"","context":"interactive","out-height":"","fig-cap":"","editor-word-wrap":"true","message":"true","results":"markup","fig-width":"6","output":"true","label":"unnamed-chunk-2","fig-height":"3.7","warning":"true","autorun":"false","read-only":"false","dpi":72,"comment":"","classes":""},"code":"","id":2},{"options":{"editor-font-scale":"0.85","out-width":"70%","editor-quick-suggestions":"false","editor-max-height":"","context":"interactive","out-height":"","fig-cap":"","editor-word-wrap":"true","message":"true","results":"markup","fig-width":"6","output":"true","label":"unnamed-chunk-3","fig-height":"3.7","warning":"true","autorun":"false","read-only":"false","dpi":72,"comment":"","classes":""},"code":"","id":3},{"options":{"editor-font-scale":"0.85","out-width":"70%","editor-quick-suggestions":"false","editor-max-height":"","context":"interactive","out-height":"","fig-cap":"","editor-word-wrap":"true","message":"true","results":"markup","fig-width":"6","output":"true","label":"unnamed-chunk-4","fig-height":"3.7","warning":"true","autorun":"false","read-only":"false","dpi":72,"comment":"","classes":""},"code":"babynames |> \n  mutate(rank = min_rank(desc(prop)))\n","id":4},{"options":{"editor-font-scale":"0.85","out-width":"70%","editor-quick-suggestions":"false","editor-max-height":"","context":"interactive","out-height":"","fig-cap":"","editor-word-wrap":"true","message":"true","results":"markup","fig-width":"6","output":"true","label":"unnamed-chunk-5","fig-height":"3.7","warning":"true","autorun":"false","read-only":"false","dpi":72,"comment":"","classes":""},"code":"","id":5}];
 
 </script>
 <script type="module">
@@ -1600,7 +1600,7 @@ globalThis.qwebrExecuteCode = async function (
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">R Primers</span>
+    <span class="navbar-title">R Primers for TCSM</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -1610,11 +1610,19 @@ globalThis.qwebrExecuteCode = async function (
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">At-Home Exercises</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../class.html"> 
+<span class="menu-text">In-Class Exercises</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/tcsm"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
@@ -2549,7 +2557,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <button id="continueButton" class="btn btn-primary float-start me-2">
 Continue
 </button>
-<a id="nextTopicButton" class="btn btn-danger disabled" href="05-challenges.html" role="button">Next topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start over</button>
+<a id="nextTopicButton" class="btn btn-danger disabled" href="05-challenges.html" role="button">Next Topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start Over</button>
 </section>
 </div>
 
