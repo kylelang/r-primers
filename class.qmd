@@ -1,0 +1,54 @@
+---
+title: "In-Class Exercises"
+sidebar: false
+
+engine: knitr
+filters:
+  - webr
+webr:
+  cell-options:
+    editor-font-scale: 0.85
+    fig-width: 6
+    fig-height: 3.7
+    out-width: "70%"
+---
+
+::: {.callout-note}
+## Attribution Note
+
+This project is a blatant clone of the R-Primers project created by
+[Andrew Heiss](https://www.andrewheiss.com/). The original version of this website
+is available [here](https://r-primers.andrewheiss.com/index.html).
+
+If you've somehow stumbled onto this page in the wild, you should probably use
+Heiss' original version of this project. I'm only hosting my own copy of these
+materials to ensure that the content of the tutorials doesn't change in the middle
+of a course in which I'm relying on this resource.
+
+The remainder of this page comprises Heiss' original content.
+:::
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.height = 6 * 0.618,
+  fig.retina = 3,
+  dev = "ragg_png",
+  fig.align = "center",
+  out.width = "70%"
+)
+
+source(here::here("R", "helpers.R"))
+```
+
+The in-class portion of this week's practical exercises will extend the introduction
+that you recieved in the At-Home Exercises by digging deeper into techniques for
+transforming, visualizing, and tidying data.
+
+##
+
+```{r}
+#| echo: false
+#| results: asis
+create_buttons("transform-data/01-tibbles/index.html")
+```
