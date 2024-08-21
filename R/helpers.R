@@ -8,7 +8,7 @@ create_buttons <- function(next_topic = "#") {
 <section id="buttons">
 <button id="continueButton" class="btn btn-primary float-start me-2">Continue</button>
 {next_button}
-<button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start Over</button>
+<button id="resetButton" class="btn btn-outline-warning float-end">Restart Topic</button>
 </section>')
   
   cat(button_section)
@@ -23,8 +23,8 @@ begin_buttons <- function(next_topic = "#") {
       <a id="beginButton" class="btn btn-danger" href="{next_topic}" role="button">
       Begin Exercises
       </a>
-      <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
-      Start Over
+      <button id="resetButton" class="btn btn-outline-warning float-end">
+      Restart Topic
       </button>
     </section>
     '
@@ -38,11 +38,11 @@ first_buttons <- function(next_topic = "#") {
   glue::glue(
     '
     <section id="buttons">
-      <a id="firstButton" class="btn btn-primary float-start me-2" href="{next_topic}" role="button">
+      <a id="firstButton" class="btn btn-primary float-start" href="{next_topic}" role="button">
       Continue
       </a>
-      <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">
-      Start Over
+      <button id="resetButton" class="btn btn-outline-warning float-end">
+      Restart Topic
       </button>
     </section>
     '

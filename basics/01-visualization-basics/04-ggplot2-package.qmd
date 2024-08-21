@@ -53,5 +53,5 @@ Your new data visualization skills will make it easier to learn other parts of R
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/basics/02-programming-basics/index.html")
 ```

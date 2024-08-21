@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"warning":"true","fig-width":"6","context":"setup","autorun":"true","label":"unnamed-chunk-1","comment":"","classes":"","fig-cap":"","out-width":"70%","editor-max-height":"","read-only":"false","message":"true","out-height":"","editor-word-wrap":"true","fig-height":"3.7","dpi":72,"results":"markup","editor-font-scale":"0.85","editor-quick-suggestions":"false","output":"true"},"code":"p1 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price)) +\n  geom_smooth(mapping = aes(color = cut), se = FALSE) + \n  labs(title = \"Carat size vs. Price\",\n       subtitle = \"Fair cut diamonds tend to be large, but they fetch the lowest prices for most carat sizes.\",\n       caption = \"Data by Hadley Wickham\")"},{"id":2,"options":{"warning":"true","fig-width":"6","context":"interactive","autorun":"false","label":"unnamed-chunk-2","comment":"","classes":"","fig-cap":"","out-width":"70%","editor-max-height":"","read-only":"false","message":"true","out-height":"","editor-word-wrap":"true","fig-height":"3.7","dpi":72,"results":"markup","editor-font-scale":"0.85","editor-quick-suggestions":"false","output":"true"},"code":"p1 + theme_bw()\n"},{"id":3,"options":{"warning":"true","fig-width":"6","context":"interactive","autorun":"false","label":"unnamed-chunk-3","comment":"","classes":"","fig-cap":"","out-width":"70%","editor-max-height":"","read-only":"false","message":"true","out-height":"","editor-word-wrap":"true","fig-height":"3.7","dpi":72,"results":"markup","editor-font-scale":"0.85","editor-quick-suggestions":"false","output":"true"},"code":"p1\n"}];
+globalThis.qwebrCellDetails = [{"options":{"dpi":72,"editor-max-height":"","message":"true","output":"true","read-only":"false","fig-cap":"","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","autorun":"true","warning":"true","results":"markup","context":"setup","out-width":"70%","editor-font-scale":"0.85","classes":"","fig-width":"6","label":"unnamed-chunk-1","comment":"","editor-word-wrap":"true"},"id":1,"code":"p1 <- ggplot(data = diamonds, mapping = aes(x = carat, y = price)) +\n  geom_smooth(mapping = aes(color = cut), se = FALSE) + \n  labs(title = \"Carat size vs. Price\",\n       subtitle = \"Fair cut diamonds tend to be large, but they fetch the lowest prices for most carat sizes.\",\n       caption = \"Data by Hadley Wickham\")"},{"options":{"dpi":72,"editor-max-height":"","message":"true","output":"true","read-only":"false","fig-cap":"","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","autorun":"false","warning":"true","results":"markup","context":"interactive","out-width":"70%","editor-font-scale":"0.85","classes":"","fig-width":"6","label":"unnamed-chunk-2","comment":"","editor-word-wrap":"true"},"id":2,"code":"p1 + theme_bw()\n"},{"options":{"dpi":72,"editor-max-height":"","message":"true","output":"true","read-only":"false","fig-cap":"","fig-height":"3.7","out-height":"","editor-quick-suggestions":"false","autorun":"false","warning":"true","results":"markup","context":"interactive","out-width":"70%","editor-font-scale":"0.85","classes":"","fig-width":"6","label":"unnamed-chunk-3","comment":"","editor-word-wrap":"true"},"id":3,"code":"p1\n"}];
 
 </script>
 <script type="module">
@@ -2348,7 +2348,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div>
 
 </div>
-<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-ncol="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -2461,7 +2461,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <button id="continueButton" class="btn btn-primary float-start me-2">
 Continue
 </button>
-<a id="nextTopicButton" class="btn btn-danger disabled" href="04-scales.html" role="button">Next Topic</a> <button id="resetButton" class="btn btn-outline-warning btn-sm float-end">Start Over</button>
+<a id="nextTopicButton" class="btn btn-danger disabled" href="04-scales.html" role="button">Next Topic</a> <button id="resetButton" class="btn btn-outline-warning float-end">Restart Topic</button>
 </section>
 </div>
 

@@ -11,14 +11,14 @@
     "href": "visualize-data/08-customize/index.html#section",
     "title": "Customize your plots",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/05-legends.html#section-2",
     "href": "visualize-data/08-customize/05-legends.html#section-2",
     "title": "Legends",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/03-themes.html",
@@ -32,7 +32,7 @@
     "href": "visualize-data/08-customize/03-themes.html#section-2",
     "title": "Themes",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/01-zooming.html",
@@ -46,7 +46,7 @@
     "href": "visualize-data/08-customize/01-zooming.html#section-4",
     "title": "Zooming",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/07-overplotting/03-large-data.html",
@@ -60,7 +60,7 @@
     "href": "visualize-data/07-overplotting/03-large-data.html#section-2",
     "title": "Large data",
     "section": "",
-    "text": "Continue\n\n\nStart Over"
+    "text": "Continue\n\n\nRestart Topic"
   },
   {
     "objectID": "visualize-data/07-overplotting/01-overplotting.html",
@@ -74,21 +74,21 @@
     "href": "visualize-data/07-overplotting/01-overplotting.html#section",
     "title": "Overplotting",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/06-line-graphs/03-maps.html#section-4",
     "href": "visualize-data/06-line-graphs/03-maps.html#section-4",
     "title": "Maps",
     "section": "",
-    "text": "Continue\n\n\nStart Over"
+    "text": "Continue\n\n\nRestart Topic"
   },
   {
     "objectID": "visualize-data/06-line-graphs/01-line-graphs.html#section-5",
     "href": "visualize-data/06-line-graphs/01-line-graphs.html#section-5",
     "title": "Line graphs",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/05-scatterplots/03-coordinate-systems.html",
@@ -109,7 +109,7 @@
     "href": "visualize-data/05-scatterplots/03-coordinate-systems.html#section-1",
     "title": "Coordinate Systems",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -137,7 +137,7 @@
     "href": "visualize-data/05-scatterplots/01-scatterplots.html#section-3",
     "title": "Scatterplots",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -158,7 +158,7 @@
     "href": "visualize-data/04-boxplots/03-counts.html#section-1",
     "title": "Counts",
     "section": "",
-    "text": "Continue\n\n\nStart Over"
+    "text": "Continue\n\n\nRestart Topic"
   },
   {
     "objectID": "visualize-data/04-boxplots/01-boxplots.html",
@@ -172,7 +172,7 @@
     "href": "visualize-data/04-boxplots/01-boxplots.html#section-4",
     "title": "Boxplots",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/03-histograms/02-similar-geoms.html",
@@ -186,7 +186,7 @@
     "href": "visualize-data/03-histograms/02-similar-geoms.html#section-4",
     "title": "Similar geoms",
     "section": "",
-    "text": "Continue\n\n\nStart Over"
+    "text": "Continue\n\n\nRestart Topic"
   },
   {
     "objectID": "visualize-data/02-bar-charts/index.html",
@@ -206,7 +206,7 @@
     "href": "visualize-data/02-bar-charts/index.html#section",
     "title": "Bar Charts",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -233,7 +233,7 @@
     "href": "visualize-data/02-bar-charts/03-position-adjustments.html#section",
     "title": "Position Adjustments",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -261,7 +261,7 @@
     "href": "visualize-data/02-bar-charts/01-bar-charts.html#section",
     "title": "Bar Charts",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -289,7 +289,7 @@
     "href": "visualize-data/01-eda/03-covariation.html#section",
     "title": "Covariation",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -317,7 +317,7 @@
     "href": "visualize-data/01-eda/01-eda.html#section",
     "title": "EDA",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -345,7 +345,7 @@
     "href": "transform-data/03-deriving/05-challenges.html#section-1",
     "title": "Challenges",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -373,7 +373,7 @@
     "href": "transform-data/03-deriving/03-group_by.html#section-1",
     "title": "group_by() and summarize()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -401,7 +401,7 @@
     "href": "transform-data/03-deriving/01-motivation.html#section",
     "title": "Motivation",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -429,7 +429,7 @@
     "href": "transform-data/02-isolating/05-pipe.html#section",
     "title": "Pipes",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -457,7 +457,7 @@
     "href": "transform-data/02-isolating/03-filter.html#section-5",
     "title": "filter()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -485,7 +485,7 @@
     "href": "transform-data/02-isolating/01-motivation.html#section",
     "title": "Motivation",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -513,7 +513,7 @@
     "href": "transform-data/01-tibbles/03-tidyverse.html#section",
     "title": "Tidyverse",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -541,7 +541,7 @@
     "href": "transform-data/01-tibbles/01-example-data.html#section",
     "title": "Example Data",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -555,7 +555,7 @@
     "href": "tidy-data/01-reshape-data/03-long-to-wide.html#section-5",
     "title": "Long to Wide",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -583,7 +583,7 @@
     "href": "tidy-data/01-reshape-data/01-tidy-data.html#section",
     "title": "Tidy Data",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -618,7 +618,7 @@
     "href": "class.html#section",
     "title": "In-Class Exercises",
     "section": "",
-    "text": "Begin Exercises   Start Over"
+    "text": "Begin Exercises   Restart Topic"
   },
   {
     "objectID": "basics/02-programming-basics/07-packages.html",
@@ -637,7 +637,7 @@
     "href": "basics/02-programming-basics/07-packages.html#section-2",
     "title": "Packages",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -661,7 +661,7 @@
     "href": "basics/02-programming-basics/05-types.html#section",
     "title": "Types",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -685,7 +685,7 @@
     "href": "basics/02-programming-basics/03-objects.html#section-3",
     "title": "Objects",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -709,7 +709,7 @@
     "href": "basics/02-programming-basics/01-functions.html#section-2",
     "title": "Functions",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -733,7 +733,7 @@
     "href": "basics/01-visualization-basics/04-ggplot2-package.html#section",
     "title": "The ggplot2 Package",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization",
@@ -757,7 +757,7 @@
     "href": "basics/01-visualization-basics/02-aesthetic-mappings.html#section-8",
     "title": "Aesthetic Mappings",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization",
@@ -830,7 +830,7 @@
     "href": "basics/01-visualization-basics/01-general-ideas.html#section-8",
     "title": "General Ideas",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization",
@@ -854,7 +854,7 @@
     "href": "basics/01-visualization-basics/03-geometric-objects.html#section-1",
     "title": "Geometric Objects",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization",
@@ -877,7 +877,7 @@
     "href": "basics/01-visualization-basics/index.html#section-1",
     "title": "Data Visualization",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Data Visualization"
@@ -900,7 +900,7 @@
     "href": "basics/02-programming-basics/02-arguments.html#section-1",
     "title": "Arguments",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -924,7 +924,7 @@
     "href": "basics/02-programming-basics/04-vectors.html#section-4",
     "title": "Vectors",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -948,7 +948,7 @@
     "href": "basics/02-programming-basics/06-lists.html#section-1",
     "title": "Lists",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics",
@@ -971,7 +971,7 @@
     "href": "basics/02-programming-basics/index.html#section",
     "title": "Programming Basics",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "Programming Basics"
@@ -989,7 +989,7 @@
     "href": "home.html#section",
     "title": "At-Home Exercises",
     "section": "",
-    "text": "Begin Exercises   Start Over"
+    "text": "Begin Exercises   Restart Topic"
   },
   {
     "objectID": "LICENSE.html",
@@ -1003,7 +1003,7 @@
     "href": "tidy-data/01-reshape-data/02-wide-to-long.html#section-4",
     "title": "Wide to Long",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1030,7 +1030,7 @@
     "href": "tidy-data/01-reshape-data/index.html#section",
     "title": "Reshaping Data",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1043,7 +1043,7 @@
     "href": "transform-data/01-tibbles/02-tibbles.html#section-1",
     "title": "Tibbles",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1070,7 +1070,7 @@
     "href": "transform-data/01-tibbles/index.html#section",
     "title": "Tibbles",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1097,7 +1097,7 @@
     "href": "transform-data/02-isolating/02-select.html#section",
     "title": "select()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1125,7 +1125,7 @@
     "href": "transform-data/02-isolating/04-arrange.html#section-2",
     "title": "arrange()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1152,7 +1152,7 @@
     "href": "transform-data/02-isolating/index.html#section",
     "title": "Isolating Data",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1179,7 +1179,7 @@
     "href": "transform-data/03-deriving/02-summarize.html#section-1",
     "title": "summarize()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1207,7 +1207,7 @@
     "href": "transform-data/03-deriving/04-mutate.html#section-2",
     "title": "mutate()",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1234,7 +1234,7 @@
     "href": "transform-data/03-deriving/index.html#section",
     "title": "Deriving Information",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1261,7 +1261,7 @@
     "href": "visualize-data/01-eda/02-variation.html#section-1",
     "title": "Variation",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1288,7 +1288,7 @@
     "href": "visualize-data/01-eda/index.html#section",
     "title": "Exploratory Data Analysis",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1315,7 +1315,7 @@
     "href": "visualize-data/02-bar-charts/02-aesthetics.html#section",
     "title": "Aesthetics",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1343,7 +1343,7 @@
     "href": "visualize-data/02-bar-charts/04-facets.html#section",
     "title": "Facets",
     "section": "",
-    "text": "Continue\n\n\nStart Over",
+    "text": "Continue\n\n\nRestart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1364,7 +1364,7 @@
     "href": "visualize-data/03-histograms/01-histograms.html#section-4",
     "title": "Histograms",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/03-histograms/index.html",
@@ -1378,7 +1378,7 @@
     "href": "visualize-data/03-histograms/index.html#section",
     "title": "Histograms",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/04-boxplots/02-similar-geoms.html",
@@ -1392,7 +1392,7 @@
     "href": "visualize-data/04-boxplots/02-similar-geoms.html#section-3",
     "title": "Similar geoms",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/04-boxplots/index.html",
@@ -1406,7 +1406,7 @@
     "href": "visualize-data/04-boxplots/index.html#section",
     "title": "Boxplots and counts",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/05-scatterplots/02-layers.html",
@@ -1427,7 +1427,7 @@
     "href": "visualize-data/05-scatterplots/02-layers.html#section-9",
     "title": "Layers",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1454,7 +1454,7 @@
     "href": "visualize-data/05-scatterplots/index.html#section",
     "title": "Scatterplots",
     "section": "",
-    "text": "Continue   Start Over",
+    "text": "Continue   Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1467,7 +1467,7 @@
     "href": "visualize-data/06-line-graphs/02-similar-geoms.html#section-5",
     "title": "Similar geoms",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/06-line-graphs/index.html",
@@ -1481,7 +1481,7 @@
     "href": "visualize-data/06-line-graphs/index.html#section",
     "title": "Line plots",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/07-overplotting/02-rounding.html",
@@ -1495,7 +1495,7 @@
     "href": "visualize-data/07-overplotting/02-rounding.html#section-2",
     "title": "Rounding",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/07-overplotting/index.html",
@@ -1509,21 +1509,21 @@
     "href": "visualize-data/07-overplotting/index.html#section",
     "title": "Overplotting and big data",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/02-labels.html#section-2",
     "href": "visualize-data/08-customize/02-labels.html#section-2",
     "title": "Labels",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/04-scales.html#section-5",
     "href": "visualize-data/08-customize/04-scales.html#section-5",
     "title": "Scales",
     "section": "",
-    "text": "Continue\n\nNext Topic Start Over"
+    "text": "Continue\n\nNext Topic Restart Topic"
   },
   {
     "objectID": "visualize-data/08-customize/06-quiz.html",
@@ -1537,6 +1537,6 @@
     "href": "visualize-data/08-customize/06-quiz.html#section",
     "title": "Quiz",
     "section": "",
-    "text": "Continue\n\n\nStart Over"
+    "text": "Continue\n\n\nRestart Topic"
   }
 ]

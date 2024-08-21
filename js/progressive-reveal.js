@@ -12,11 +12,16 @@ function revealSection(sectionIndex) {
   sections[sectionIndex].classList.remove('hidden');
 }
 
+function clearProgress() {
+  localStorage.removeItem(key);
+  window.location.hash = '#';  // Remove the anchor from the URL
+}
+
 var continueButton = document.getElementById('continueButton');
 var nextTopicButton = document.getElementById('nextTopicButton');
 
-// Disable continue button if there are no sections
-if (sections.length === 0) {
+// Disable continue button if there are one or fewer sections
+if (sections.length <= 1) {
     continueButton.disabled = true;
     nextTopicButton.classList.remove('disabled');
 // Otherwise progressively reveal sections
@@ -32,9 +37,11 @@ if (sections.length === 0) {
             window.scrollBy(0, 70);
         }
 
-        if (currentSection >= sections.length - 1) {
+        if (currentSection >= sections.length - 1) { // We're in the final section
             continueButton.disabled = true;
             nextTopicButton.classList.remove('disabled');
+            // Reset the 'currentSection' counter when moving to a new topic 
+            //localStorage.removeItem(key);
         }
     });
 }
@@ -45,11 +52,6 @@ window.onload = function () {
     revealSection(i);
   }
 };
-
-function clearProgress() {
-  localStorage.removeItem(key);
-  window.location.hash = '#';  // Remove the anchor from the URL
-}
 
 document.getElementById('resetButton').addEventListener('click', function () {
   clearProgress();
