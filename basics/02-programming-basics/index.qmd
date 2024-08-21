@@ -1,5 +1,5 @@
 ---
-title: "Programming basics"
+title: "Programming Basics"
 format:
   html: 
     toc: false

@@ -1,5 +1,5 @@
 ---
-title: "Geometric objects"
+title: "Geometric Objects"
 format:
   html: 
     toc: false

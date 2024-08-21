@@ -1,5 +1,5 @@
 ---
-title: "`|>`"
+title: "Pipes"
 format:
   html: 
     toc: false
@@ -64,9 +64,9 @@ You could avoid creating `boys_2017` by nesting your functions inside of each ot
 arrange(select(filter(babynames, year == 2017, sex == "M"), name, n), desc(n))
 ```
 
-There is a third way to write sequences of functions: the pipe.
+There is a third way to write sequences of functions: the pipe operator, `|>`.
 
-### |>
+### Explanation: Pipes
 
 The pipe operator `|>` performs an extremely simple task: it passes the result on its left into the first argument of the function on its right. Or put another way, `x |> f(y)` is the same as `f(x, y)`. This piece of code punctuation makes it easy to write and read series of functions that are applied in a step by step way. For example, we can use the pipe to rewrite our code above:
 
@@ -111,7 +111,7 @@ babynames |>
 
 :::
 
-### Your name
+### Revisiting the motivating example
 
 You've now mastered a set of skills that will let you easily plot the popularity of your name over time. In the code chunk below, use a combination of {dplyr} and {ggplot2} functions with `|>` to:
 

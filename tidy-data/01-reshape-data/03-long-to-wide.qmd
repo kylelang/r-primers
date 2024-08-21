@@ -1,5 +1,5 @@
 ---
-title: "Long to wide"
+title: "Long to Wide"
 format:
   html: 
     toc: false
@@ -448,6 +448,14 @@ $$
 
 This formula has three variables: $\text{ratio male}$, $\text{total male}$, and $\text{total female}$. To create the first variable, we required a dataset that isolated the second and third variables ($\text{total male}$ and $\text{total female}$) in their own columns. 
 
+### Congratulations!
+
+You've completed the Week 1 In-Class Exercises. Don't worry if you're still 
+struggling with some concepts or feel that you haven't mastered everything 
+covered in these tutorials: that's normal. If you managed to complete all of
+these tutorial exercises, you should have enough familiarity R to hit the ground
+running when we start using R to estimate statistical models (which we'll start
+doing next week). Mastery will come through practice and repitition. 
 
 ##
 

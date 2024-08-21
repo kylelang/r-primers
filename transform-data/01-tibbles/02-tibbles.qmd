@@ -1,5 +1,5 @@
 ---
-title: "tibbles"
+title: "Tibbles"
 format:
   html: 
     toc: false

@@ -1,5 +1,5 @@
 ---
-title: "Working with tibbles"
+title: "Tibbles"
 format:
   html: 
     toc: false
@@ -44,5 +44,5 @@ In addition to `babynames`, this tutorial uses the [core tidyverse packages](htt
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-babynames.html")
+create_buttons("01-example-data.html")
 ```

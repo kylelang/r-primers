@@ -1,5 +1,5 @@
 ---
-title: "babynames"
+title: "Example Data"
 format:
   html: 
     toc: false

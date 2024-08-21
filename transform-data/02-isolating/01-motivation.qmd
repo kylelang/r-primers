@@ -1,5 +1,5 @@
 ---
-title: "Your name"
+title: "Motivation"
 format:
   html: 
     toc: false
@@ -30,11 +30,12 @@ source(here::here("R", "helpers.R"))
 You can use the data in `babynames` to make graphs like this, which reveal the history of a name, perhaps your name.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+myName <- "Kyle"
 babynames |> 
-  filter(name == "Andrew", sex == "M") |> 
+  filter(name == myName, sex == "M") |> 
   ggplot() +
     geom_line(aes(x = year, y = prop)) +
-    labs(title = "Popularity of the name Andrew")
+    labs(title = paste("Popularity of the name", myName))
 ```
 
 But before you do, you will need to trim down `babynames`. At the moment, there are more rows in `babynames` than you need to build your plot. 
@@ -53,10 +54,10 @@ I then narrowed the data to just the rows that contain my name, before plotting 
 
 ```{r out.width="60%"}
 babynames |> 
-  filter(name == "Andrew", sex == "M") |> 
+  filter(name == "Kyle", sex == "M") |> 
   ggplot() +
     geom_point(aes(x = year, y = prop)) +
-    labs(title = "Popularity of the name Andrew")
+    labs(title = "Popularity of the name Kyle")
 ```
 
 If I had skipped this step, my line graph would've connected all of the points in the large dataset, creating an uninformative graph.
@@ -78,7 +79,6 @@ This type of task occurs often in data science: you need to extract data from a 
 1. **`arrange()`**, which moves important rows to the top of a data frame
 
 Each function takes a data frame or tibble as its first argument and returns a new data frame or tibble as its output. 
-
 
 ##
 

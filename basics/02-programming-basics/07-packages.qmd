@@ -123,8 +123,9 @@ Good job! You only need to install a package once, unless you wish to update you
 
 ### Congratulations!
 
-Congratulations. You now have a formal sense for how the basics of R work. Although you may think of your self as a data scientist, this brief computer science background will help you as you analyze data. Whenever R does something unexpected, you can apply your knowledge of how R works to figure out what went wrong.
-
+You've completed the Week 1 At-Home Exercises, and you should now have a formal
+sense for how the basics of R work. In this week's In-Class Exercises, we'll 
+start building on the foundations you've established here.
 
 ##
 
