@@ -595,14 +595,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R Primers",
+    "title": "R Primers for TCSM",
     "section": "",
-    "text": "A version of the old RStudio/Posit Primers, now with Quarto and webR."
+    "text": "A version of the old RStudio/Posit Primers, ported to Quarto and webR by Andrew Heiss and adjusted to suit the needs of Theory Construction and Statistical Modeling by Kyle M. Lang."
   },
   {
     "objectID": "index.html#license",
     "href": "index.html#license",
-    "title": "R Primers",
+    "title": "R Primers for TCSM",
     "section": "License",
     "text": "License\n\nThe original primers were developed by the RStudio/Posit Education Team and made open source on GitHub. Following the original license, these tutorials are licensed under the Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0).\nThe primers are derived from the book R for Data Science from O’Reilly Media, Inc. Copyright © 2017 Garrett Grolemund, Hadley Wickham. Used with permission.\nSee here for the full license."
   },
@@ -611,7 +611,7 @@
     "href": "class.html",
     "title": "In-Class Exercises",
     "section": "",
-    "text": "Attribution Note\n\n\n\nThese exercises have been shamelessly copied from the R-Primers project created by Andrew Heiss. The original version of Heiss’ website is available here.\nThe in-class portion of this week’s practical exercises will extend the introduction that you recieved in the At-Home Exercises by digging deeper into techniques for transforming, visualizing, and tidying data."
+    "text": "Attribution Note\n\n\n\nThese exercises have been shamelessly copied from the R-Primers project created by Andrew Heiss. The original version of Heiss’ website is available here.\nYou can read Heiss’ explanation of how he ported the old Posit Primers into the R-Primers project in the About section.\nThe in-class portion of this week’s practical exercises will extend the introduction that you received in the At-Home Exercises by digging deeper into techniques for transforming, visualizing, and tidying data."
   },
   {
     "objectID": "class.html#section",
@@ -982,7 +982,7 @@
     "href": "home.html",
     "title": "At-Home Exercises",
     "section": "",
-    "text": "Attribution Note\n\n\n\nThese exercises have been shamelessly copied from the R-Primers project created by Andrew Heiss. The original version of Heiss’ website is available here.\nThe at-home portion of this week’s practical exercises will introduce you to the rudements of data visualization and statistical programming in R."
+    "text": "Attribution Note\n\n\n\nThese exercises have been shamelessly copied from the R-Primers project created by Andrew Heiss. The original version of Heiss’ website is available here.\nYou can read Heiss’ explanation of how he ported the old Posit Primers into the R-Primers project in the About section.\nThe at-home portion of this week’s practical exercises will introduce you to the rudiments of data visualization and statistical programming in R."
   },
   {
     "objectID": "home.html#section",

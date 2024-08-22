@@ -18,6 +18,9 @@ webr:
 These exercises have been shamelessly copied from the R-Primers project created
 by [Andrew Heiss](https://www.andrewheiss.com/). The original version of Heiss'
 website is available [here](https://r-primers.andrewheiss.com/index.html).
+
+You can read Heiss' explanation of how he ported the old *Posit Primers* into
+the *R-Primers* project in the [About](/about.html) section.
 :::
 
 ```{r include = FALSE}
@@ -34,7 +37,7 @@ source(here::here("R", "helpers.R"))
 ```
 
 The at-home portion of this week's practical exercises will introduce you to the
-rudements of data visualization and statistical programming in R.
+rudiments of data visualization and statistical programming in R.
 
 ##
 

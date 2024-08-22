@@ -1,9 +1,12 @@
 ---
-title: "R Primers"
+title: "R Primers for TCSM"
 toc: false
 ---
 
-A version of the old RStudio/Posit Primers, now with Quarto and webR.
+A version of the old RStudio/Posit Primers, ported to Quarto and webR by
+[Andrew Heiss](https://www.andrewheiss.com/) and adjusted to suit the needs of
+[*Theory Construction and Statistical Modeling*](https://kylemlang.com/tcsm) by
+[Kyle M. Lang](https://kylemlang.com).
 
 ## License {.appendix}
 
