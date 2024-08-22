@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"context":"setup","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-1","editor-word-wrap":"true","autorun":"true","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"us <- map_data(\"state\")\n\nUSArrests2 <- USArrests |> \n  rownames_to_column(\"NAME\")\n\nus_states_merged <- us_states |> \n  left_join(USArrests2, by = join_by(NAME))\n\nus_states_merged","id":1},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-2","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"","id":2},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-3","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"ggplot(us) +\n  geom_polygon(mapping = aes(x = long, y = lat))\n","id":3},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-4","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"ggplot() +\n  geom_sf(data = us_states)\n","id":4},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-5","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"us_states |> \n  filter(NAME == \"Texas\") |> \n  ggplot() +\n    geom_sf()\n","id":5},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-6","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"ggplot(us_states_merged) +\n  geom_sf()\n","id":6},{"options":{"context":"interactive","editor-font-scale":"0.85","read-only":"false","results":"markup","fig-height":"3.7","warning":"true","editor-max-height":"","comment":"","fig-width":"6","editor-quick-suggestions":"false","fig-cap":"","out-width":"70%","label":"unnamed-chunk-7","editor-word-wrap":"true","autorun":"false","classes":"","dpi":72,"output":"true","message":"true","out-height":""},"code":"ggplot(us_states_merged) +\n  geom_sf(aes(fill = UrbanPop)) +\n  coord_sf(crs = st_crs(\"ESRI:102003\"))\n","id":7}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"true","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"setup","label":"unnamed-chunk-1","editor-font-scale":"0.85"},"code":"us <- map_data(\"state\")\n\nUSArrests2 <- USArrests |> \n  rownames_to_column(\"NAME\")\n\nus_states_merged <- us_states |> \n  left_join(USArrests2, by = join_by(NAME))\n\nus_states_merged"},{"id":2,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-2","editor-font-scale":"0.85"},"code":""},{"id":3,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-3","editor-font-scale":"0.85"},"code":"ggplot(us) +\n  geom_polygon(mapping = aes(x = long, y = lat))\n"},{"id":4,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-4","editor-font-scale":"0.85"},"code":"ggplot() +\n  geom_sf(data = us_states)\n"},{"id":5,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-5","editor-font-scale":"0.85"},"code":"us_states |> \n  filter(NAME == \"Texas\") |> \n  ggplot() +\n    geom_sf()\n"},{"id":6,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-6","editor-font-scale":"0.85"},"code":"ggplot(us_states_merged) +\n  geom_sf()\n"},{"id":7,"options":{"editor-max-height":"","read-only":"false","output":"true","fig-height":"3.7","comment":"","fig-cap":"","editor-word-wrap":"true","autorun":"false","warning":"true","editor-quick-suggestions":"false","results":"markup","classes":"","dpi":72,"out-width":"70%","message":"true","fig-width":"6","out-height":"","context":"interactive","label":"unnamed-chunk-7","editor-font-scale":"0.85"},"code":"ggplot(us_states_merged) +\n  geom_sf(aes(fill = UrbanPop)) +\n  coord_sf(crs = st_crs(\"ESRI:102003\"))\n"}];
 
 </script>
 <script type="module">
@@ -1956,13 +1956,65 @@ globalThis.qwebrExecuteCode = async function (
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../visualize-data/05-scatterplots/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Scatterplots</span></a>
+            <a href="../../visualize-data/03-histograms/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Histograms</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/03-histograms/01-histograms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Histograms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/03-histograms/02-similar-geoms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Similar Geoms</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../visualize-data/04-boxplots/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boxplots and Counts</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/01-boxplots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boxplots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/02-similar-geoms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Similar Geoms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/03-counts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Counts</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../visualize-data/05-scatterplots/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Scatterplots</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/05-scatterplots/01-scatterplots.html" class="sidebar-item-text sidebar-link">
@@ -1987,22 +2039,22 @@ globalThis.qwebrExecuteCode = async function (
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
  <span class="menu-text">Tidying Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../tidy-data/01-reshape-data/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reshaping Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tidy-data/01-reshape-data/01-tidy-data.html" class="sidebar-item-text sidebar-link">

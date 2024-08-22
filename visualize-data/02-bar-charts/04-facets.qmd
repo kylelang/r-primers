@@ -174,5 +174,5 @@ Bar charts are an excellent way to display the distribution of a categorical var
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/visualize-data/03-histograms/index.html")
 ```

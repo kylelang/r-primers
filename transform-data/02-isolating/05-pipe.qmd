@@ -161,5 +161,5 @@ In the tidyverse, functions are like words: each does one simple task well. You 
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/transform-data/03-deriving/index.html")
 ```

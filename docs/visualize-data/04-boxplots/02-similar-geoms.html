@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Similar geoms – R Primers for TCSM</title>
+<title>Similar Geoms – R Primers for TCSM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"message":"true","warning":"true","out-height":"","out-width":"70%","context":"interactive","fig-height":"3.7","autorun":"false","dpi":72,"comment":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","fig-width":"6","classes":"","label":"unnamed-chunk-1","editor-max-height":"","results":"markup","output":"true","fig-cap":"","editor-word-wrap":"true"},"id":1,"code":"ggplot(data = mpg) +\n  geom_dotplot(mapping = aes(x = class, y = hwy), binaxis = \"y\", \n               dotsize = 0.5, binwidth = 1)\n"},{"options":{"message":"true","warning":"true","out-height":"","out-width":"70%","context":"interactive","fig-height":"3.7","autorun":"false","dpi":72,"comment":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","fig-width":"6","classes":"","label":"unnamed-chunk-2","editor-max-height":"","results":"markup","output":"true","fig-cap":"","editor-word-wrap":"true"},"id":2,"code":"ggplot(data = mpg) +\n  geom_boxplot(mapping = aes(x = class, y = hwy))\n"},{"options":{"message":"true","warning":"true","out-height":"","out-width":"70%","context":"interactive","fig-height":"3.7","autorun":"false","dpi":72,"comment":"","editor-quick-suggestions":"false","read-only":"false","editor-font-scale":"0.85","fig-width":"6","classes":"","label":"unnamed-chunk-3","editor-max-height":"","results":"markup","output":"true","fig-cap":"","editor-word-wrap":"true"},"id":3,"code":"ggplot(data = mpg) +\n  geom_violin(mapping = aes(x = class, y = hwy))\n"}];
+globalThis.qwebrCellDetails = [{"options":{"message":"true","label":"unnamed-chunk-1","context":"interactive","output":"true","editor-word-wrap":"true","warning":"true","out-width":"70%","fig-height":"3.7","fig-cap":"","results":"markup","dpi":72,"fig-width":"6","autorun":"false","classes":"","out-height":"","read-only":"false","editor-quick-suggestions":"false","comment":"","editor-font-scale":"0.85","editor-max-height":""},"code":"ggplot(data = mpg) +\n  geom_dotplot(mapping = aes(x = class, y = hwy), binaxis = \"y\", \n               dotsize = 0.5, binwidth = 1)\n","id":1},{"options":{"message":"true","label":"unnamed-chunk-2","context":"interactive","output":"true","editor-word-wrap":"true","warning":"true","out-width":"70%","fig-height":"3.7","fig-cap":"","results":"markup","dpi":72,"fig-width":"6","autorun":"false","classes":"","out-height":"","read-only":"false","editor-quick-suggestions":"false","comment":"","editor-font-scale":"0.85","editor-max-height":""},"code":"ggplot(data = mpg) +\n  geom_boxplot(mapping = aes(x = class, y = hwy))\n","id":2},{"options":{"message":"true","label":"unnamed-chunk-3","context":"interactive","output":"true","editor-word-wrap":"true","warning":"true","out-width":"70%","fig-height":"3.7","fig-cap":"","results":"markup","dpi":72,"fig-width":"6","autorun":"false","classes":"","out-height":"","read-only":"false","editor-quick-suggestions":"false","comment":"","editor-font-scale":"0.85","editor-max-height":""},"code":"ggplot(data = mpg) +\n  geom_violin(mapping = aes(x = class, y = hwy))\n","id":3}];
 
 </script>
 <script type="module">
@@ -1669,7 +1669,7 @@ window.Quarto = {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Similar geoms</h1>
+          <h1 class="quarto-secondary-nav-title">Similar Geoms</h1>
         </a>     
     </div>
   </nav>
@@ -1912,13 +1912,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">Visualizing Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../visualize-data/01-eda/index.html" class="sidebar-item-text sidebar-link">
@@ -1985,13 +1985,65 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../visualize-data/05-scatterplots/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Scatterplots</span></a>
+            <a href="../../visualize-data/03-histograms/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Histograms</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/03-histograms/01-histograms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Histograms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/03-histograms/02-similar-geoms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Similar Geoms</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../visualize-data/04-boxplots/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boxplots and Counts</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/01-boxplots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boxplots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/02-similar-geoms.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Similar Geoms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../visualize-data/04-boxplots/03-counts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Counts</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../visualize-data/05-scatterplots/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Scatterplots</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/05-scatterplots/01-scatterplots.html" class="sidebar-item-text sidebar-link">
@@ -2016,22 +2068,22 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
  <span class="menu-text">Tidying Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../tidy-data/01-reshape-data/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reshaping Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tidy-data/01-reshape-data/01-tidy-data.html" class="sidebar-item-text sidebar-link">
@@ -2351,7 +2403,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Similar geoms</h1>
+<h1 class="title d-none d-lg-block">Similar Geoms</h1>
 </div>
 
 

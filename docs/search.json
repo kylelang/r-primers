@@ -109,7 +109,7 @@
     "href": "visualize-data/05-scatterplots/03-coordinate-systems.html#section-1",
     "title": "Coordinate Systems",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -151,42 +151,84 @@
     "href": "visualize-data/04-boxplots/03-counts.html",
     "title": "Counts",
     "section": "",
-    "text": "Boxplots provide an efficient way to explore the interaction of a continuous variable and a categorical variable. But what if you have two categorical variables?\nYou can see how observations are distributed across two categorical variables with geom_count(). geom_count() draws a point at each combination of values from the two variables. The size of the point is mapped to the number of observations with this combination of values. Rare combinations will have small points, frequent combinations will have large points."
+    "text": "Boxplots provide an efficient way to explore the interaction of a continuous variable and a categorical variable. But what if you have two categorical variables?\nYou can see how observations are distributed across two categorical variables with geom_count(). geom_count() draws a point at each combination of values from the two variables. The size of the point is mapped to the number of observations with this combination of values. Rare combinations will have small points, frequent combinations will have large points.",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Counts"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/03-counts.html#section-1",
     "href": "visualize-data/04-boxplots/03-counts.html#section-1",
     "title": "Counts",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic"
+    "text": "Continue\n\nNext Topic Restart Topic",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Counts"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/01-boxplots.html",
     "href": "visualize-data/04-boxplots/01-boxplots.html",
     "title": "Boxplots",
     "section": "",
-    "text": "Watch this video:"
+    "text": "Watch this video:",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Boxplots"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/01-boxplots.html#section-4",
     "href": "visualize-data/04-boxplots/01-boxplots.html#section-4",
     "title": "Boxplots",
     "section": "",
-    "text": "Continue\n\nNext Topic Restart Topic"
+    "text": "Continue\n\nNext Topic Restart Topic",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Boxplots"
+    ]
   },
   {
     "objectID": "visualize-data/03-histograms/02-similar-geoms.html",
     "href": "visualize-data/03-histograms/02-similar-geoms.html",
-    "title": "Similar geoms",
+    "title": "Similar Geoms",
     "section": "",
-    "text": "By adding a fill color to our histogram below, we’ve divided the data into five “sub-distributions”: the distribution of price for Fair cut diamonds, for Good cut diamonds, for Very Good cut diamonds, for Premium cut diamonds, and for Ideal cut diamonds.\n\n\n\n\n\n\n\n\n\nBut this display has some shortcomings:\n\nit is difficult to see the “shapes” of the individual distributions\nit is difficult to compare the individual distributions, because they do not share a common baseline value for \\(y\\)."
+    "text": "By adding a fill color to our histogram below, we’ve divided the data into five “sub-distributions”: the distribution of price for Fair cut diamonds, for Good cut diamonds, for Very Good cut diamonds, for Premium cut diamonds, and for Ideal cut diamonds.\n\n\n\n\n\n\n\n\n\nBut this display has some shortcomings:\n\nit is difficult to see the “shapes” of the individual distributions\nit is difficult to compare the individual distributions, because they do not share a common baseline value for \\(y\\).",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms",
+      "Similar Geoms"
+    ]
   },
   {
     "objectID": "visualize-data/03-histograms/02-similar-geoms.html#section-4",
     "href": "visualize-data/03-histograms/02-similar-geoms.html#section-4",
-    "title": "Similar geoms",
+    "title": "Similar Geoms",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic"
+    "text": "Continue\n\nNext Topic Restart Topic",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms",
+      "Similar Geoms"
+    ]
   },
   {
     "objectID": "visualize-data/02-bar-charts/index.html",
@@ -289,7 +331,7 @@
     "href": "visualize-data/01-eda/03-covariation.html#section",
     "title": "Covariation",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -345,7 +387,7 @@
     "href": "transform-data/03-deriving/05-challenges.html#section-1",
     "title": "Challenges",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -429,7 +471,7 @@
     "href": "transform-data/02-isolating/05-pipe.html#section",
     "title": "Pipes",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -513,7 +555,7 @@
     "href": "transform-data/01-tibbles/03-tidyverse.html#section",
     "title": "Tidyverse",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1343,7 +1385,7 @@
     "href": "visualize-data/02-bar-charts/04-facets.html#section",
     "title": "Facets",
     "section": "",
-    "text": "Continue\n\n\nRestart Topic",
+    "text": "Continue\n\nNext Topic Restart Topic",
     "crumbs": [
       "At-Home Exercises",
       "In-Class Exercises",
@@ -1357,56 +1399,108 @@
     "href": "visualize-data/03-histograms/01-histograms.html",
     "title": "Histograms",
     "section": "",
-    "text": "Watch this video:"
+    "text": "Watch this video:",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms",
+      "Histograms"
+    ]
   },
   {
     "objectID": "visualize-data/03-histograms/01-histograms.html#section-4",
     "href": "visualize-data/03-histograms/01-histograms.html#section-4",
     "title": "Histograms",
     "section": "",
-    "text": "Continue\n\nNext Topic Restart Topic"
+    "text": "Continue\n\nNext Topic Restart Topic",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms",
+      "Histograms"
+    ]
   },
   {
     "objectID": "visualize-data/03-histograms/index.html",
     "href": "visualize-data/03-histograms/index.html",
     "title": "Histograms",
     "section": "",
-    "text": "Histograms are the most popular way to visualize continuous distributions. Here we will look at them and their derivatives. You will learn how to:\nThe tutorial is adapted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience."
+    "text": "Histograms are the most popular way to visualize continuous distributions. Here we will look at them and their derivatives. You will learn how to:\nThe tutorial is adapted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience.",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms"
+    ]
   },
   {
     "objectID": "visualize-data/03-histograms/index.html#section",
     "href": "visualize-data/03-histograms/index.html#section",
     "title": "Histograms",
     "section": "",
-    "text": "Continue\n\nNext Topic Restart Topic"
+    "text": "Continue",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Histograms"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/02-similar-geoms.html",
     "href": "visualize-data/04-boxplots/02-similar-geoms.html",
-    "title": "Similar geoms",
+    "title": "Similar Geoms",
     "section": "",
-    "text": "Boxplots provide a quick way to represent a distribution, but they leave behind a lot of information. {ggplot2} supplements boxplots with two geoms that show more information.\nThe first is geom_dotplot(). If you set the binaxis parameter of geom_dotplot() to \"y\", geom_dotplot() behaves like geom_boxplot(), display a separate distribution for each group of data.\nHere each group functions like a vertical histogram. Add the parameter stackdir = \"center\" then re-run the code. Can you interpret the results?\n\n Interactive editor Solution\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nggplot(data = mpg) +\n  geom_dotplot(mapping = aes(x = class, y = hwy), binaxis = \"y\", \n               dotsize = 0.5, binwidth = 1, stackdir = \"center\")"
+    "text": "Boxplots provide a quick way to represent a distribution, but they leave behind a lot of information. {ggplot2} supplements boxplots with two geoms that show more information.\nThe first is geom_dotplot(). If you set the binaxis parameter of geom_dotplot() to \"y\", geom_dotplot() behaves like geom_boxplot(), display a separate distribution for each group of data.\nHere each group functions like a vertical histogram. Add the parameter stackdir = \"center\" then re-run the code. Can you interpret the results?\n\n Interactive editor Solution\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nggplot(data = mpg) +\n  geom_dotplot(mapping = aes(x = class, y = hwy), binaxis = \"y\", \n               dotsize = 0.5, binwidth = 1, stackdir = \"center\")",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Similar Geoms"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/02-similar-geoms.html#section-3",
     "href": "visualize-data/04-boxplots/02-similar-geoms.html#section-3",
-    "title": "Similar geoms",
+    "title": "Similar Geoms",
     "section": "",
-    "text": "Continue\n\nNext Topic Restart Topic"
+    "text": "Continue\n\nNext Topic Restart Topic",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts",
+      "Similar Geoms"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/index.html",
     "href": "visualize-data/04-boxplots/index.html",
-    "title": "Boxplots and counts",
+    "title": "Boxplots and Counts",
     "section": "",
-    "text": "Boxplots display the relationship between a continuous variable and a categorical variable. Count plots display the relationship between two categorical variables. In this tutorial, you will learn how to use both. You will learn how to:\nThe tutorial is adapted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience."
+    "text": "Boxplots display the relationship between a continuous variable and a categorical variable. Count plots display the relationship between two categorical variables. In this tutorial, you will learn how to use both. You will learn how to:\nThe tutorial is adapted from R for Data Science by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at shop.oreilly.com.\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience.",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts"
+    ]
   },
   {
     "objectID": "visualize-data/04-boxplots/index.html#section",
     "href": "visualize-data/04-boxplots/index.html#section",
-    "title": "Boxplots and counts",
+    "title": "Boxplots and Counts",
     "section": "",
-    "text": "Continue\n\nNext Topic Restart Topic"
+    "text": "Continue",
+    "crumbs": [
+      "At-Home Exercises",
+      "In-Class Exercises",
+      "Visualizing Data",
+      "Boxplots and Counts"
+    ]
   },
   {
     "objectID": "visualize-data/05-scatterplots/02-layers.html",

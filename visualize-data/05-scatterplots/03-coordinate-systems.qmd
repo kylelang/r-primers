@@ -166,5 +166,5 @@ However, this tutor introduced important two concepts that apply to more than ju
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/tidy-data/01-reshape-data/index.html")
 ```

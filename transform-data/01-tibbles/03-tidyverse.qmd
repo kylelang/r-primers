@@ -145,5 +145,5 @@ This tutorial also introduced the babynames dataset. In the next tutorial, you w
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/transform-data/02-isolating/index.html")
 ```

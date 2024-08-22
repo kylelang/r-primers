@@ -257,5 +257,5 @@ The next tutorial will teach you the last of three basic skills for working with
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/visualize-data/01-eda/index.html")
 ```

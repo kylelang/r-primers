@@ -144,5 +144,5 @@ The suggestions below can serve as starting point for visualizing data. In the t
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/visualize-data/02-bar-charts/index.html")
 ```

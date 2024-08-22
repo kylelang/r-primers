@@ -268,5 +268,5 @@ The most important thing to remember about histograms, frequency polygons, and d
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/visualize-data/04-boxplots/index.html")
 ```

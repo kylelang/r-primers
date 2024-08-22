@@ -147,5 +147,5 @@ Count plots and heat maps help you see how observations are distributed across t
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons(NULL)
+create_buttons("/visualize-data/05-scatterplots/index.html")
 ```
