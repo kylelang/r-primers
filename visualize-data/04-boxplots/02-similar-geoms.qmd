@@ -1,5 +1,5 @@
 ---
-title: "Similar geoms"
+title: "Similar Geoms"
 format:
   html: 
     toc: false

@@ -38,5 +38,5 @@ The tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("01-histograms.html")
+first_buttons("01-histograms.html")
 ```

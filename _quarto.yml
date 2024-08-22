@@ -47,6 +47,8 @@ website:
           contents:
           - auto: "visualize-data/01-eda"
           - auto: "visualize-data/02-bar-charts"
+          - auto: "visualize-data/03-histograms"
+          - auto: "visualize-data/04-boxplots"
           - auto: "visualize-data/05-scatterplots"
 
         - section: "Tidying Data"
